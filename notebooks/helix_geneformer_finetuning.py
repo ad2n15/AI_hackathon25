@@ -3,7 +3,7 @@ import anndata as ad
 
 # Load the data
 print("Loading data...")
-ann_data = ad.read_h5ad("../data/yalk_sac_data.h5ad")
+ann_data = ad.read_h5ad("yolksac_human.h5ad")
 print("Data loaded successfully.")
 
 # Get the column for fine-tuning

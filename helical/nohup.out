@@ -1,0 +1,713 @@
+INFO:    User not listed in /etc/subuid, trying root-mapped namespace
+INFO:    The %post section will be run under the fakeroot command
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+FATAL:   While performing build: packer failed to pack: while unpacking rootfs: while unpacking layer sha256:7cd785773db44407e20a679ce5439222e505475eed5b99f1910eb2cda51729ab: unpack entry: usr/bin/cut: apply hdr metadata: clear xattr metadata: /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/build-temp-3906081885/rootfs/usr/bin/cut: unpriv.lclearxattrs: unpriv.llistxattr: no such file or directory
+FATAL:   Unable to build from helical_container/: unable to open file helical_container/: open helical_container/: no such file or directory
+INFO:    User not listed in /etc/subuid, trying root-mapped namespace
+INFO:    The %post section will be run under the fakeroot command
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+INFO:    Extracting OCI image...
+INFO:    Inserting Apptainer configuration...
+INFO:    Running post scriptlet
++ cd /home
++ apt-get -y upgrade
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
++ apt-get -y update
+Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8792 kB]
+Get:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [512 B]
+Get:6 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [250 kB]
+Fetched 9297 kB in 1s (6228 kB/s)
+Reading package lists...
++ apt-get install -y cmake wget git curl gcc gfortran
+Reading package lists...
+Building dependency tree...
+Reading state information...
+wget is already the newest version (1.21.3-1+deb12u1).
+git is already the newest version (1:2.39.5-0+deb12u2).
+curl is already the newest version (7.88.1-10+deb12u12).
+gcc is already the newest version (4:12.2.0-3).
+The following additional packages will be installed:
+  cmake-data gfortran-12 libarchive13 libgfortran-12-dev libgfortran5
+  libjsoncpp25 librhash0 libuv1
+Suggested packages:
+  cmake-doc cmake-format elpa-cmake-mode ninja-build gfortran-multilib
+  gfortran-doc gfortran-12-multilib gfortran-12-doc libcoarrays-dev lrzip
+The following NEW packages will be installed:
+  cmake cmake-data gfortran gfortran-12 libarchive13 libgfortran-12-dev
+  libgfortran5 libjsoncpp25 librhash0 libuv1
+0 upgraded, 10 newly installed, 0 to remove and 5 not upgraded.
+Need to get 23.2 MB of archives.
+After this operation, 85.9 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bookworm/main amd64 libarchive13 amd64 3.6.2-1+deb12u2 [343 kB]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 libjsoncpp25 amd64 1.9.5-4 [78.6 kB]
+Get:3 http://deb.debian.org/debian bookworm/main amd64 librhash0 amd64 1.4.3-3 [134 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 libuv1 amd64 1.44.2-1+deb12u1 [136 kB]
+Get:5 http://deb.debian.org/debian bookworm/main amd64 cmake-data all 3.25.1-1 [2026 kB]
+Get:6 http://deb.debian.org/debian bookworm/main amd64 cmake amd64 3.25.1-1 [8692 kB]
+Get:7 http://deb.debian.org/debian bookworm/main amd64 libgfortran5 amd64 12.2.0-14 [793 kB]
+Get:8 http://deb.debian.org/debian bookworm/main amd64 libgfortran-12-dev amd64 12.2.0-14 [834 kB]
+Get:9 http://deb.debian.org/debian bookworm/main amd64 gfortran-12 amd64 12.2.0-14 [10.2 MB]
+Get:10 http://deb.debian.org/debian bookworm/main amd64 gfortran amd64 4:12.2.0-3 [1428 B]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 23.2 MB in 2s (12.6 MB/s)
+Selecting previously unselected package libarchive13:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 23965 files and directories currently installed.)
+Preparing to unpack .../0-libarchive13_3.6.2-1+deb12u2_amd64.deb ...
+Unpacking libarchive13:amd64 (3.6.2-1+deb12u2) ...
+Selecting previously unselected package libjsoncpp25:amd64.
+Preparing to unpack .../1-libjsoncpp25_1.9.5-4_amd64.deb ...
+Unpacking libjsoncpp25:amd64 (1.9.5-4) ...
+Selecting previously unselected package librhash0:amd64.
+Preparing to unpack .../2-librhash0_1.4.3-3_amd64.deb ...
+Unpacking librhash0:amd64 (1.4.3-3) ...
+Selecting previously unselected package libuv1:amd64.
+Preparing to unpack .../3-libuv1_1.44.2-1+deb12u1_amd64.deb ...
+Unpacking libuv1:amd64 (1.44.2-1+deb12u1) ...
+Selecting previously unselected package cmake-data.
+Preparing to unpack .../4-cmake-data_3.25.1-1_all.deb ...
+Unpacking cmake-data (3.25.1-1) ...
+Selecting previously unselected package cmake.
+Preparing to unpack .../5-cmake_3.25.1-1_amd64.deb ...
+Unpacking cmake (3.25.1-1) ...
+Selecting previously unselected package libgfortran5:amd64.
+Preparing to unpack .../6-libgfortran5_12.2.0-14_amd64.deb ...
+Unpacking libgfortran5:amd64 (12.2.0-14) ...
+Selecting previously unselected package libgfortran-12-dev:amd64.
+Preparing to unpack .../7-libgfortran-12-dev_12.2.0-14_amd64.deb ...
+Unpacking libgfortran-12-dev:amd64 (12.2.0-14) ...
+Selecting previously unselected package gfortran-12.
+Preparing to unpack .../8-gfortran-12_12.2.0-14_amd64.deb ...
+Unpacking gfortran-12 (12.2.0-14) ...
+Selecting previously unselected package gfortran.
+Preparing to unpack .../9-gfortran_4%3a12.2.0-3_amd64.deb ...
+Unpacking gfortran (4:12.2.0-3) ...
+Setting up libarchive13:amd64 (3.6.2-1+deb12u2) ...
+Setting up libuv1:amd64 (1.44.2-1+deb12u1) ...
+Setting up libjsoncpp25:amd64 (1.9.5-4) ...
+Setting up libgfortran5:amd64 (12.2.0-14) ...
+Setting up librhash0:amd64 (1.4.3-3) ...
+Setting up cmake-data (3.25.1-1) ...
+Setting up libgfortran-12-dev:amd64 (12.2.0-14) ...
+Setting up gfortran-12 (12.2.0-14) ...
+Setting up cmake (3.25.1-1) ...
+Setting up gfortran (4:12.2.0-3) ...
+update-alternatives: using /usr/bin/gfortran to provide /usr/bin/f95 (f95) in auto mode
+update-alternatives: using /usr/bin/gfortran to provide /usr/bin/f77 (f77) in auto mode
+Processing triggers for libc-bin (2.36-9+deb12u10) ...
++ apt-get clean
++ python3 -m pip install helical
+Collecting helical
+  Downloading helical-0.0.1a27-py3-none-any.whl.metadata (52 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.7/52.7 kB 2.9 MB/s eta 0:00:00
+Collecting accelerate==1.4.0 (from helical)
+  Downloading accelerate-1.4.0-py3-none-any.whl.metadata (19 kB)
+Collecting anndata==0.11 (from helical)
+  Downloading anndata-0.11.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting azure-core==1.30.1 (from helical)
+  Downloading azure_core-1.30.1-py3-none-any.whl.metadata (37 kB)
+Collecting azure-identity==1.16.1 (from helical)
+  Downloading azure_identity-1.16.1-py3-none-any.whl.metadata (77 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.0/77.0 kB 6.5 MB/s eta 0:00:00
+Collecting azure-storage-blob==12.19.1 (from helical)
+  Downloading azure_storage_blob-12.19.1-py3-none-any.whl.metadata (26 kB)
+Collecting datasets==2.20.0 (from helical)
+  Downloading datasets-2.20.0-py3-none-any.whl.metadata (19 kB)
+Collecting einops==0.8.0 (from helical)
+  Downloading einops-0.8.0-py3-none-any.whl.metadata (12 kB)
+Collecting gitpython==3.1.43 (from helical)
+  Downloading GitPython-3.1.43-py3-none-any.whl.metadata (13 kB)
+Collecting hydra-core==1.3.2 (from helical)
+  Downloading hydra_core-1.3.2-py3-none-any.whl.metadata (5.5 kB)
+Collecting loompy==3.0.7 (from helical)
+  Downloading loompy-3.0.7.tar.gz (4.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 30.0 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting louvain==0.8.2 (from helical)
+  Downloading louvain-0.8.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting numpy==1.26.4 (from helical)
+  Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.0/61.0 kB 7.7 MB/s eta 0:00:00
+Collecting omegaconf==2.3.0 (from helical)
+  Downloading omegaconf-2.3.0-py3-none-any.whl.metadata (3.9 kB)
+Collecting pandas==2.2.2 (from helical)
+  Downloading pandas-2.2.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (19 kB)
+Collecting pyensembl (from helical)
+  Downloading pyensembl-2.3.13-py3-none-any.whl.metadata (9.4 kB)
+Collecting requests>=2.32.3 (from helical)
+  Downloading requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting scib==1.1.5 (from helical)
+  Downloading scib-1.1.5-1-py3-none-any.whl.metadata (9.8 kB)
+Collecting scikit-learn>=1.5.0 (from helical)
+  Downloading scikit_learn-1.6.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
+Collecting scikit-misc==0.3.1 (from helical)
+  Downloading scikit_misc-0.3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+Collecting scipy==1.13.1 (from helical)
+  Downloading scipy-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.6/60.6 kB 7.6 MB/s eta 0:00:00
+Collecting torch==2.6.0 (from helical)
+  Downloading torch-2.6.0-cp311-cp311-manylinux1_x86_64.whl.metadata (28 kB)
+Collecting torchvision==0.21.0 (from helical)
+  Downloading torchvision-0.21.0-cp311-cp311-manylinux1_x86_64.whl.metadata (6.1 kB)
+Collecting transformers==4.49.0 (from helical)
+  Downloading transformers-4.49.0-py3-none-any.whl.metadata (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 kB 5.2 MB/s eta 0:00:00
+Collecting packaging>=20.0 (from accelerate==1.4.0->helical)
+  Downloading packaging-24.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting psutil (from accelerate==1.4.0->helical)
+  Downloading psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (22 kB)
+Collecting pyyaml (from accelerate==1.4.0->helical)
+  Downloading PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
+Collecting huggingface-hub>=0.21.0 (from accelerate==1.4.0->helical)
+  Downloading huggingface_hub-0.30.0-py3-none-any.whl.metadata (13 kB)
+Collecting safetensors>=0.4.3 (from accelerate==1.4.0->helical)
+  Downloading safetensors-0.5.3-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.8 kB)
+Collecting array-api-compat!=1.5,>1.4 (from anndata==0.11->helical)
+  Downloading array_api_compat-1.11.2-py3-none-any.whl.metadata (1.9 kB)
+Collecting h5py>=3.6 (from anndata==0.11->helical)
+  Downloading h5py-3.13.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.5 kB)
+Collecting natsort (from anndata==0.11->helical)
+  Downloading natsort-8.4.0-py3-none-any.whl.metadata (21 kB)
+Collecting six>=1.11.0 (from azure-core==1.30.1->helical)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting typing-extensions>=4.6.0 (from azure-core==1.30.1->helical)
+  Downloading typing_extensions-4.13.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting cryptography>=2.5 (from azure-identity==1.16.1->helical)
+  Downloading cryptography-44.0.2-cp39-abi3-manylinux_2_34_x86_64.whl.metadata (5.7 kB)
+Collecting msal>=1.24.0 (from azure-identity==1.16.1->helical)
+  Downloading msal-1.32.0-py3-none-any.whl.metadata (11 kB)
+Collecting msal-extensions>=0.3.0 (from azure-identity==1.16.1->helical)
+  Downloading msal_extensions-1.3.1-py3-none-any.whl.metadata (7.8 kB)
+Collecting isodate>=0.6.1 (from azure-storage-blob==12.19.1->helical)
+  Downloading isodate-0.7.2-py3-none-any.whl.metadata (11 kB)
+Collecting filelock (from datasets==2.20.0->helical)
+  Downloading filelock-3.18.0-py3-none-any.whl.metadata (2.9 kB)
+Collecting pyarrow>=15.0.0 (from datasets==2.20.0->helical)
+  Downloading pyarrow-19.0.1-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Collecting pyarrow-hotfix (from datasets==2.20.0->helical)
+  Downloading pyarrow_hotfix-0.6-py3-none-any.whl.metadata (3.6 kB)
+Collecting dill<0.3.9,>=0.3.0 (from datasets==2.20.0->helical)
+  Downloading dill-0.3.8-py3-none-any.whl.metadata (10 kB)
+Collecting tqdm>=4.66.3 (from datasets==2.20.0->helical)
+  Downloading tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.7/57.7 kB 7.4 MB/s eta 0:00:00
+Collecting xxhash (from datasets==2.20.0->helical)
+  Downloading xxhash-3.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (12 kB)
+Collecting multiprocess (from datasets==2.20.0->helical)
+  Downloading multiprocess-0.70.17-py311-none-any.whl.metadata (7.2 kB)
+Collecting fsspec<=2024.5.0,>=2023.1.0 (from fsspec[http]<=2024.5.0,>=2023.1.0->datasets==2.20.0->helical)
+  Downloading fsspec-2024.5.0-py3-none-any.whl.metadata (11 kB)
+Collecting aiohttp (from datasets==2.20.0->helical)
+  Downloading aiohttp-3.11.14-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.7 kB)
+Collecting gitdb<5,>=4.0.1 (from gitpython==3.1.43->helical)
+  Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+Collecting antlr4-python3-runtime==4.9.* (from hydra-core==1.3.2->helical)
+  Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.0/117.0 kB 12.4 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: setuptools in /usr/local/lib/python3.11/site-packages (from loompy==3.0.7->helical) (65.5.1)
+Collecting numba (from loompy==3.0.7->helical)
+  Downloading numba-0.61.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.8 kB)
+Collecting click (from loompy==3.0.7->helical)
+  Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Collecting numpy-groupies (from loompy==3.0.7->helical)
+  Downloading numpy_groupies-0.11.2-py3-none-any.whl.metadata (18 kB)
+Collecting igraph<0.12,>=0.10.0 (from louvain==0.8.2->helical)
+  Downloading igraph-0.11.8-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.8 kB)
+Collecting python-dateutil>=2.8.2 (from pandas==2.2.2->helical)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas==2.2.2->helical)
+  Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas==2.2.2->helical)
+  Downloading tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting seaborn (from scib==1.1.5->helical)
+  Downloading seaborn-0.13.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting matplotlib (from scib==1.1.5->helical)
+  Downloading matplotlib-3.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+Collecting scanpy>=1.5 (from scib==1.1.5->helical)
+  Downloading scanpy-1.11.1-py3-none-any.whl.metadata (9.9 kB)
+Collecting leidenalg (from scib==1.1.5->helical)
+  Downloading leidenalg-0.10.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
+Collecting umap-learn (from scib==1.1.5->helical)
+  Downloading umap_learn-0.5.7-py3-none-any.whl.metadata (21 kB)
+Collecting pydot (from scib==1.1.5->helical)
+  Downloading pydot-3.0.4-py3-none-any.whl.metadata (10 kB)
+Collecting llvmlite (from scib==1.1.5->helical)
+  Downloading llvmlite-0.44.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.8 kB)
+Collecting deprecated (from scib==1.1.5->helical)
+  Downloading Deprecated-1.2.18-py2.py3-none-any.whl.metadata (5.7 kB)
+Collecting networkx (from torch==2.6.0->helical)
+  Downloading networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
+Collecting jinja2 (from torch==2.6.0->helical)
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting nvidia-cuda-nvrtc-cu12==12.4.127 (from torch==2.6.0->helical)
+  Downloading nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cuda-runtime-cu12==12.4.127 (from torch==2.6.0->helical)
+  Downloading nvidia_cuda_runtime_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cuda-cupti-cu12==12.4.127 (from torch==2.6.0->helical)
+  Downloading nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cudnn-cu12==9.1.0.70 (from torch==2.6.0->helical)
+  Downloading nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cublas-cu12==12.4.5.8 (from torch==2.6.0->helical)
+  Downloading nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cufft-cu12==11.2.1.3 (from torch==2.6.0->helical)
+  Downloading nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-curand-cu12==10.3.5.147 (from torch==2.6.0->helical)
+  Downloading nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting nvidia-cusolver-cu12==11.6.1.9 (from torch==2.6.0->helical)
+  Downloading nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cusparse-cu12==12.3.1.170 (from torch==2.6.0->helical)
+  Downloading nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl.metadata (1.6 kB)
+Collecting nvidia-cusparselt-cu12==0.6.2 (from torch==2.6.0->helical)
+  Downloading nvidia_cusparselt_cu12-0.6.2-py3-none-manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting nvidia-nccl-cu12==2.21.5 (from torch==2.6.0->helical)
+  Downloading nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-nvtx-cu12==12.4.127 (from torch==2.6.0->helical)
+  Downloading nvidia_nvtx_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-nvjitlink-cu12==12.4.127 (from torch==2.6.0->helical)
+  Downloading nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting triton==3.2.0 (from torch==2.6.0->helical)
+  Downloading triton-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.4 kB)
+Collecting sympy==1.13.1 (from torch==2.6.0->helical)
+  Downloading sympy-1.13.1-py3-none-any.whl.metadata (12 kB)
+Collecting pillow!=8.3.*,>=5.3.0 (from torchvision==0.21.0->helical)
+  Downloading pillow-11.1.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+Collecting regex!=2019.12.17 (from transformers==4.49.0->helical)
+  Downloading regex-2024.11.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (40 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.5/40.5 kB 4.4 MB/s eta 0:00:00
+Collecting tokenizers<0.22,>=0.21 (from transformers==4.49.0->helical)
+  Downloading tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy==1.13.1->torch==2.6.0->helical)
+  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting charset-normalizer<4,>=2 (from requests>=2.32.3->helical)
+  Downloading charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (35 kB)
+Collecting idna<4,>=2.5 (from requests>=2.32.3->helical)
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests>=2.32.3->helical)
+  Downloading urllib3-2.3.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests>=2.32.3->helical)
+  Downloading certifi-2025.1.31-py3-none-any.whl.metadata (2.5 kB)
+Collecting joblib>=1.2.0 (from scikit-learn>=1.5.0->helical)
+  Downloading joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn>=1.5.0->helical)
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Collecting typechecks<1.0.0,>=0.0.2 (from pyensembl->helical)
+  Downloading typechecks-0.1.0.tar.gz (3.4 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting datacache<2.0.0,>=1.4.0 (from pyensembl->helical)
+  Downloading datacache-1.4.1-py3-none-any.whl.metadata (1.9 kB)
+Collecting memoized-property>=1.0.2 (from pyensembl->helical)
+  Downloading memoized-property-1.0.3.tar.gz (5.0 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting tinytimer<1.0.0,>=0.0.0 (from pyensembl->helical)
+  Downloading tinytimer-0.0.0.tar.gz (2.1 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting gtfparse<3.0.0,>=2.5.0 (from pyensembl->helical)
+  Downloading gtfparse-2.5.0-py3-none-any.whl.metadata (2.1 kB)
+Collecting serializable<1.0.0,>=0.2.1 (from pyensembl->helical)
+  Downloading serializable-0.4.1-py3-none-any.whl.metadata (2.2 kB)
+Collecting pylint<3.0.0,>=2.17.2 (from pyensembl->helical)
+  Downloading pylint-2.17.7-py3-none-any.whl.metadata (12 kB)
+Collecting cffi>=1.12 (from cryptography>=2.5->azure-identity==1.16.1->helical)
+  Downloading cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting appdirs>=1.4.0 (from datacache<2.0.0,>=1.4.0->pyensembl->helical)
+  Downloading appdirs-1.4.4-py2.py3-none-any.whl.metadata (9.0 kB)
+Collecting progressbar33>=2.4 (from datacache<2.0.0,>=1.4.0->pyensembl->helical)
+  Downloading progressbar33-2.4.tar.gz (10 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting mock (from datacache<2.0.0,>=1.4.0->pyensembl->helical)
+  Downloading mock-5.2.0-py3-none-any.whl.metadata (3.1 kB)
+Collecting aiohappyeyeballs>=2.3.0 (from aiohttp->datasets==2.20.0->helical)
+  Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl.metadata (5.9 kB)
+Collecting aiosignal>=1.1.2 (from aiohttp->datasets==2.20.0->helical)
+  Downloading aiosignal-1.3.2-py2.py3-none-any.whl.metadata (3.8 kB)
+Collecting attrs>=17.3.0 (from aiohttp->datasets==2.20.0->helical)
+  Downloading attrs-25.3.0-py3-none-any.whl.metadata (10 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp->datasets==2.20.0->helical)
+  Downloading frozenlist-1.5.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (13 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp->datasets==2.20.0->helical)
+  Downloading multidict-6.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+Collecting propcache>=0.2.0 (from aiohttp->datasets==2.20.0->helical)
+  Downloading propcache-0.3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
+Collecting yarl<2.0,>=1.17.0 (from aiohttp->datasets==2.20.0->helical)
+  Downloading yarl-1.18.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (69 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.2/69.2 kB 8.3 MB/s eta 0:00:00
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython==3.1.43->helical)
+  Downloading smmap-5.0.2-py3-none-any.whl.metadata (4.3 kB)
+Collecting polars<0.21.0,>=0.20.2 (from gtfparse<3.0.0,>=2.5.0->pyensembl->helical)
+  Downloading polars-0.20.31-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (14 kB)
+INFO: pip is looking at multiple versions of gtfparse to determine which version is compatible with other requirements. This could take a while.
+Collecting pyensembl (from helical)
+  Downloading pyensembl-2.3.12-py3-none-any.whl.metadata (9.4 kB)
+  Downloading pyensembl-2.3.11-py3-none-any.whl.metadata (9.4 kB)
+  Downloading pyensembl-2.3.10-py3-none-any.whl.metadata (9.4 kB)
+  Downloading pyensembl-2.3.9-py3-none-any.whl.metadata (9.4 kB)
+  Downloading pyensembl-2.3.8-py3-none-any.whl.metadata (9.4 kB)
+  Downloading pyensembl-2.3.7-py3-none-any.whl.metadata (9.7 kB)
+  Downloading pyensembl-2.3.6-py3-none-any.whl.metadata (9.3 kB)
+INFO: pip is still looking at multiple versions of gtfparse to determine which version is compatible with other requirements. This could take a while.
+Collecting gtfparse<3.0.0,>=2.4.1 (from pyensembl->helical)
+  Downloading gtfparse-2.4.1-py3-none-any.whl.metadata (2.1 kB)
+Collecting pyensembl (from helical)
+  Downloading pyensembl-2.3.4-py3-none-any.whl.metadata (9.3 kB)
+Collecting pylint>=1.4.4 (from pyensembl->helical)
+  Downloading pylint-3.3.6-py3-none-any.whl.metadata (12 kB)
+Collecting gtfparse<3.0.0,>=2.2.1 (from pyensembl->helical)
+  Downloading gtfparse-2.4.0-py3-none-any.whl.metadata (2.1 kB)
+  Downloading gtfparse-2.3.0-py3-none-any.whl.metadata (2.1 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+Collecting pyensembl (from helical)
+  Downloading pyensembl-2.3.3-py3-none-any.whl.metadata (9.3 kB)
+  Downloading pyensembl-2.3.2-py3-none-any.whl.metadata (9.3 kB)
+  Downloading pyensembl-2.3.1-py3-none-any.whl.metadata (9.3 kB)
+  Downloading pyensembl-2.3.0.tar.gz (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.9/45.9 kB 4.6 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting gtfparse<2.2.0,>=2.1.0 (from pyensembl->helical)
+  Downloading gtfparse-2.1.0-py3-none-any.whl.metadata (2.1 kB)
+Collecting nose>=1.3.3 (from pyensembl->helical)
+  Downloading nose-1.3.7-py3-none-any.whl.metadata (1.7 kB)
+Collecting pyensembl (from helical)
+  Downloading pyensembl-2.2.9.tar.gz (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.8/58.8 kB 7.8 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting gtfparse<2.0.0,>=1.3.0 (from pyensembl->helical)
+  Downloading gtfparse-1.3.0.tar.gz (16 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting texttable>=1.6.2 (from igraph<0.12,>=0.10.0->louvain==0.8.2->helical)
+  Downloading texttable-1.7.0-py2.py3-none-any.whl.metadata (9.8 kB)
+Collecting PyJWT<3,>=1.0.0 (from PyJWT[crypto]<3,>=1.0.0->msal>=1.24.0->azure-identity==1.16.1->helical)
+  Downloading PyJWT-2.10.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting astroid<=3.4.0.dev0,>=3.3.8 (from pylint>=1.4.4->pyensembl->helical)
+  Downloading astroid-3.3.9-py3-none-any.whl.metadata (4.5 kB)
+Collecting isort!=5.13,<7,>=4.2.5 (from pylint>=1.4.4->pyensembl->helical)
+  Downloading isort-6.0.1-py3-none-any.whl.metadata (11 kB)
+Collecting mccabe<0.8,>=0.6 (from pylint>=1.4.4->pyensembl->helical)
+  Downloading mccabe-0.7.0-py2.py3-none-any.whl.metadata (5.0 kB)
+Collecting platformdirs>=2.2 (from pylint>=1.4.4->pyensembl->helical)
+  Downloading platformdirs-4.3.7-py3-none-any.whl.metadata (11 kB)
+Collecting tomlkit>=0.10.1 (from pylint>=1.4.4->pyensembl->helical)
+  Downloading tomlkit-0.13.2-py3-none-any.whl.metadata (2.7 kB)
+Collecting legacy-api-wrap>=1.4 (from scanpy>=1.5->scib==1.1.5->helical)
+  Downloading legacy_api_wrap-1.4.1-py3-none-any.whl.metadata (2.1 kB)
+Collecting patsy!=1.0.0 (from scanpy>=1.5->scib==1.1.5->helical)
+  Downloading patsy-1.0.1-py2.py3-none-any.whl.metadata (3.3 kB)
+Collecting pynndescent>=0.5 (from scanpy>=1.5->scib==1.1.5->helical)
+  Downloading pynndescent-0.5.13-py3-none-any.whl.metadata (6.8 kB)
+Collecting scikit-learn>=1.5.0 (from helical)
+  Downloading scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (13 kB)
+Collecting session-info2 (from scanpy>=1.5->scib==1.1.5->helical)
+  Downloading session_info2-0.1.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting statsmodels>=0.13 (from scanpy>=1.5->scib==1.1.5->helical)
+  Downloading statsmodels-0.14.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.2 kB)
+Collecting contourpy>=1.0.1 (from matplotlib->scib==1.1.5->helical)
+  Downloading contourpy-1.3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.4 kB)
+Collecting cycler>=0.10 (from matplotlib->scib==1.1.5->helical)
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib->scib==1.1.5->helical)
+  Downloading fonttools-4.56.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (101 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 101.9/101.9 kB 13.4 MB/s eta 0:00:00
+Collecting kiwisolver>=1.3.1 (from matplotlib->scib==1.1.5->helical)
+  Downloading kiwisolver-1.4.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.2 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib->scib==1.1.5->helical)
+  Downloading pyparsing-3.2.3-py3-none-any.whl.metadata (5.0 kB)
+Collecting wrapt<2,>=1.10 (from deprecated->scib==1.1.5->helical)
+  Downloading wrapt-1.17.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.4 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch==2.6.0->helical)
+  Downloading MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+INFO: pip is looking at multiple versions of multiprocess to determine which version is compatible with other requirements. This could take a while.
+Collecting multiprocess (from datasets==2.20.0->helical)
+  Downloading multiprocess-0.70.16-py311-none-any.whl.metadata (7.2 kB)
+Collecting simplejson (from serializable<1.0.0,>=0.2.1->pyensembl->helical)
+  Downloading simplejson-3.20.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.2 kB)
+Collecting pycparser (from cffi>=1.12->cryptography>=2.5->azure-identity==1.16.1->helical)
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Downloading helical-0.0.1a27-py3-none-any.whl (250 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 250.8/250.8 kB 25.8 MB/s eta 0:00:00
+Downloading accelerate-1.4.0-py3-none-any.whl (342 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 342.1/342.1 kB 24.7 MB/s eta 0:00:00
+Downloading anndata-0.11.0-py3-none-any.whl (141 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 141.7/141.7 kB 17.1 MB/s eta 0:00:00
+Downloading azure_core-1.30.1-py3-none-any.whl (193 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 193.4/193.4 kB 24.9 MB/s eta 0:00:00
+Downloading azure_identity-1.16.1-py3-none-any.whl (166 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.7/166.7 kB 22.1 MB/s eta 0:00:00
+Downloading azure_storage_blob-12.19.1-py3-none-any.whl (394 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.5/394.5 kB 29.6 MB/s eta 0:00:00
+Downloading datasets-2.20.0-py3-none-any.whl (547 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 547.8/547.8 kB 32.2 MB/s eta 0:00:00
+Downloading einops-0.8.0-py3-none-any.whl (43 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.2/43.2 kB 5.1 MB/s eta 0:00:00
+Downloading GitPython-3.1.43-py3-none-any.whl (207 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.3/207.3 kB 26.0 MB/s eta 0:00:00
+Downloading hydra_core-1.3.2-py3-none-any.whl (154 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 154.5/154.5 kB 20.8 MB/s eta 0:00:00
+Downloading louvain-0.8.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 45.7 MB/s eta 0:00:00
+Downloading numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 46.9 MB/s eta 0:00:00
+Downloading omegaconf-2.3.0-py3-none-any.whl (79 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 kB 9.8 MB/s eta 0:00:00
+Downloading pandas-2.2.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.0/13.0 MB 160.8 MB/s eta 0:00:00
+Downloading scib-1.1.5-1-py3-none-any.whl (79 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 kB 8.6 MB/s eta 0:00:00
+Downloading scikit_misc-0.3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.8/10.8 MB 107.3 MB/s eta 0:00:00
+Downloading scipy-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.6/38.6 MB 111.6 MB/s eta 0:00:00
+Downloading torch-2.6.0-cp311-cp311-manylinux1_x86_64.whl (766.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 766.7/766.7 MB 24.6 MB/s eta 0:00:00
+Downloading torchvision-0.21.0-cp311-cp311-manylinux1_x86_64.whl (7.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.2/7.2 MB 113.5 MB/s eta 0:00:00
+Downloading transformers-4.49.0-py3-none-any.whl (10.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 127.5 MB/s eta 0:00:00
+Downloading nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl (363.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 363.4/363.4 MB 42.1 MB/s eta 0:00:00
+Downloading nvidia_cuda_cupti_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl (13.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.8/13.8 MB 106.1 MB/s eta 0:00:00
+Downloading nvidia_cuda_nvrtc_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl (24.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 24.6/24.6 MB 48.5 MB/s eta 0:00:00
+Downloading nvidia_cuda_runtime_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl (883 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 883.7/883.7 kB 43.4 MB/s eta 0:00:00
+Downloading nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl (664.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 664.8/664.8 MB 28.7 MB/s eta 0:00:00
+Downloading nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl (211.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 211.5/211.5 MB 61.7 MB/s eta 0:00:00
+Downloading nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl (56.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 137.7 MB/s eta 0:00:00
+Downloading nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl (127.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 127.9/127.9 MB 96.2 MB/s eta 0:00:00
+Downloading nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl (207.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 207.5/207.5 MB 85.6 MB/s eta 0:00:00
+Downloading nvidia_cusparselt_cu12-0.6.2-py3-none-manylinux2014_x86_64.whl (150.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 150.1/150.1 MB 83.1 MB/s eta 0:00:00
+Downloading nvidia_nccl_cu12-2.21.5-py3-none-manylinux2014_x86_64.whl (188.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 188.7/188.7 MB 30.9 MB/s eta 0:00:00
+Downloading nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl (21.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.1/21.1 MB 49.1 MB/s eta 0:00:00
+Downloading nvidia_nvtx_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl (99 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.1/99.1 kB 12.6 MB/s eta 0:00:00
+Downloading sympy-1.13.1-py3-none-any.whl (6.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.2/6.2 MB 97.1 MB/s eta 0:00:00
+Downloading triton-3.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (253.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 253.2/253.2 MB 57.8 MB/s eta 0:00:00
+Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 kB 7.8 MB/s eta 0:00:00
+Downloading pyarrow-19.0.1-cp311-cp311-manylinux_2_28_x86_64.whl (42.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.1/42.1 MB 103.1 MB/s eta 0:00:00
+Downloading array_api_compat-1.11.2-py3-none-any.whl (53 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.1/53.1 kB 7.0 MB/s eta 0:00:00
+Downloading certifi-2025.1.31-py3-none-any.whl (166 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.4/166.4 kB 15.7 MB/s eta 0:00:00
+Downloading charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (143 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.9/143.9 kB 20.1 MB/s eta 0:00:00
+Downloading cryptography-44.0.2-cp39-abi3-manylinux_2_34_x86_64.whl (4.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 113.0 MB/s eta 0:00:00
+Downloading datacache-1.4.1-py3-none-any.whl (20 kB)
+Downloading dill-0.3.8-py3-none-any.whl (116 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 116.3/116.3 kB 17.1 MB/s eta 0:00:00
+Downloading fsspec-2024.5.0-py3-none-any.whl (316 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 316.1/316.1 kB 22.5 MB/s eta 0:00:00
+Downloading aiohttp-3.11.14-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 83.7 MB/s eta 0:00:00
+Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.8/62.8 kB 9.8 MB/s eta 0:00:00
+Downloading h5py-3.13.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 110.9 MB/s eta 0:00:00
+Downloading huggingface_hub-0.30.0-py3-none-any.whl (481 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 481.1/481.1 kB 42.0 MB/s eta 0:00:00
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 kB 10.0 MB/s eta 0:00:00
+Downloading igraph-0.11.8-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 57.0 MB/s eta 0:00:00
+Downloading isodate-0.7.2-py3-none-any.whl (22 kB)
+Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 301.8/301.8 kB 26.4 MB/s eta 0:00:00
+Downloading msal-1.32.0-py3-none-any.whl (114 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 114.7/114.7 kB 16.4 MB/s eta 0:00:00
+Downloading msal_extensions-1.3.1-py3-none-any.whl (20 kB)
+Downloading nose-1.3.7-py3-none-any.whl (154 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 154.7/154.7 kB 19.7 MB/s eta 0:00:00
+Downloading packaging-24.2-py3-none-any.whl (65 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 kB 9.9 MB/s eta 0:00:00
+Downloading pillow-11.1.0-cp311-cp311-manylinux_2_28_x86_64.whl (4.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 101.0 MB/s eta 0:00:00
+Downloading pylint-3.3.6-py3-none-any.whl (522 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 522.5/522.5 kB 42.0 MB/s eta 0:00:00
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 28.4 MB/s eta 0:00:00
+Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 509.2/509.2 kB 30.5 MB/s eta 0:00:00
+Downloading PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (762 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 763.0/763.0 kB 47.2 MB/s eta 0:00:00
+Downloading regex-2024.11.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (792 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 792.7/792.7 kB 67.7 MB/s eta 0:00:00
+Downloading safetensors-0.5.3-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (471 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 471.6/471.6 kB 41.8 MB/s eta 0:00:00
+Downloading scanpy-1.11.1-py3-none-any.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 100.2 MB/s eta 0:00:00
+Downloading scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 122.4 MB/s eta 0:00:00
+Downloading matplotlib-3.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.6/8.6 MB 174.0 MB/s eta 0:00:00
+Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 77.8 MB/s eta 0:00:00
+Downloading numba-0.61.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 142.2 MB/s eta 0:00:00
+Downloading llvmlite-0.44.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (42.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.4/42.4 MB 167.5 MB/s eta 0:00:00
+Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.9/294.9 kB 20.0 MB/s eta 0:00:00
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Downloading tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 57.5 MB/s eta 0:00:00
+Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.5/78.5 kB 10.3 MB/s eta 0:00:00
+Downloading typing_extensions-4.13.0-py3-none-any.whl (45 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.7/45.7 kB 5.2 MB/s eta 0:00:00
+Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.8/347.8 kB 34.5 MB/s eta 0:00:00
+Downloading umap_learn-0.5.7-py3-none-any.whl (88 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.8/88.8 kB 14.0 MB/s eta 0:00:00
+Downloading urllib3-2.3.0-py3-none-any.whl (128 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.4/128.4 kB 18.7 MB/s eta 0:00:00
+Downloading click-8.1.8-py3-none-any.whl (98 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.2/98.2 kB 12.6 MB/s eta 0:00:00
+Downloading Deprecated-1.2.18-py2.py3-none-any.whl (10.0 kB)
+Downloading filelock-3.18.0-py3-none-any.whl (16 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 14.2 MB/s eta 0:00:00
+Downloading leidenalg-0.10.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 100.4 MB/s eta 0:00:00
+Downloading multiprocess-0.70.16-py311-none-any.whl (143 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.5/143.5 kB 19.9 MB/s eta 0:00:00
+Downloading natsort-8.4.0-py3-none-any.whl (38 kB)
+Downloading numpy_groupies-0.11.2-py3-none-any.whl (40 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 40.6/40.6 kB 4.9 MB/s eta 0:00:00
+Downloading psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (277 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 278.0/278.0 kB 24.7 MB/s eta 0:00:00
+Downloading pyarrow_hotfix-0.6-py3-none-any.whl (7.9 kB)
+Downloading pydot-3.0.4-py3-none-any.whl (35 kB)
+Downloading serializable-0.4.1-py3-none-any.whl (12 kB)
+Downloading xxhash-3.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (194 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 194.8/194.8 kB 26.6 MB/s eta 0:00:00
+Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+Downloading aiosignal-1.3.2-py2.py3-none-any.whl (7.6 kB)
+Downloading appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Downloading astroid-3.3.9-py3-none-any.whl (275 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 275.3/275.3 kB 18.9 MB/s eta 0:00:00
+Downloading attrs-25.3.0-py3-none-any.whl (63 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.8/63.8 kB 9.1 MB/s eta 0:00:00
+Downloading cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (467 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 467.2/467.2 kB 42.1 MB/s eta 0:00:00
+Downloading contourpy-1.3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (326 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 326.2/326.2 kB 17.4 MB/s eta 0:00:00
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.56.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 148.3 MB/s eta 0:00:00
+Downloading frozenlist-1.5.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (274 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 274.9/274.9 kB 27.0 MB/s eta 0:00:00
+Downloading isort-6.0.1-py3-none-any.whl (94 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 94.2/94.2 kB 15.0 MB/s eta 0:00:00
+Downloading kiwisolver-1.4.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 50.9 MB/s eta 0:00:00
+Downloading legacy_api_wrap-1.4.1-py3-none-any.whl (10.0 kB)
+Downloading MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)
+Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 50.0 MB/s eta 0:00:00
+Downloading multidict-6.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (133 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.3/133.3 kB 20.5 MB/s eta 0:00:00
+Downloading patsy-1.0.1-py2.py3-none-any.whl (232 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 232.9/232.9 kB 34.0 MB/s eta 0:00:00
+Downloading platformdirs-4.3.7-py3-none-any.whl (18 kB)
+Downloading propcache-0.3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (232 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 232.5/232.5 kB 25.2 MB/s eta 0:00:00
+Downloading PyJWT-2.10.1-py3-none-any.whl (22 kB)
+Downloading pynndescent-0.5.13-py3-none-any.whl (56 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.9/56.9 kB 8.6 MB/s eta 0:00:00
+Downloading pyparsing-3.2.3-py3-none-any.whl (111 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.1/111.1 kB 17.0 MB/s eta 0:00:00
+Downloading smmap-5.0.2-py3-none-any.whl (24 kB)
+Downloading statsmodels-0.14.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.8/10.8 MB 153.1 MB/s eta 0:00:00
+Downloading texttable-1.7.0-py2.py3-none-any.whl (10 kB)
+Downloading tomlkit-0.13.2-py3-none-any.whl (37 kB)
+Downloading wrapt-1.17.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (83 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.2/83.2 kB 11.7 MB/s eta 0:00:00
+Downloading yarl-1.18.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (344 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 344.1/344.1 kB 28.2 MB/s eta 0:00:00
+Downloading mock-5.2.0-py3-none-any.whl (31 kB)
+Downloading session_info2-0.1.2-py3-none-any.whl (14 kB)
+Downloading simplejson-3.20.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (144 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 144.8/144.8 kB 19.2 MB/s eta 0:00:00
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 kB 17.9 MB/s eta 0:00:00
+Building wheels for collected packages: loompy, antlr4-python3-runtime, pyensembl, gtfparse, memoized-property, typechecks, tinytimer, progressbar33
+  Building wheel for loompy (setup.py): started
+  Building wheel for loompy (setup.py): finished with status 'done'
+  Created wheel for loompy: filename=loompy-3.0.7-py3-none-any.whl size=52018 sha256=5e36f89e2f095930f1ed46320d0c34b5f6add378440b043fb74047cef600cec1
+  Stored in directory: /root/.cache/pip/wheels/ff/b3/90/a44cf2ed988f70e1f1d9868910ea5cb0e144c0c3493cf67352
+  Building wheel for antlr4-python3-runtime (setup.py): started
+  Building wheel for antlr4-python3-runtime (setup.py): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144555 sha256=4ccb46f6f1857159dc48bf72c0aa7e075a0372b4da67a192fd36b34e8d9e782f
+  Stored in directory: /root/.cache/pip/wheels/1a/97/32/461f837398029ad76911109f07047fde1d7b661a147c7c56d1
+  Building wheel for pyensembl (setup.py): started
+  Building wheel for pyensembl (setup.py): finished with status 'done'
+  Created wheel for pyensembl: filename=pyensembl-2.2.9-py3-none-any.whl size=54766 sha256=1e8f502ec1875e196507fe58e1fef4dba8da0f9889c91257afbeb7f61840b79e
+  Stored in directory: /root/.cache/pip/wheels/e6/bc/50/b8deda97a6aa08cbbba72f562c574fa4ad1b34556d48c2ce0d
+  Building wheel for gtfparse (setup.py): started
+  Building wheel for gtfparse (setup.py): finished with status 'done'
+  Created wheel for gtfparse: filename=gtfparse-1.3.0-py3-none-any.whl size=15733 sha256=2be1725956f1f9ae74d1ebb5d4d63741a4f62a80c53e2e6c10434545df094982
+  Stored in directory: /root/.cache/pip/wheels/30/7e/7f/58f9a28d66f07bd13a6a3bdd6d78e99cef92908960deda797d
+  Building wheel for memoized-property (setup.py): started
+  Building wheel for memoized-property (setup.py): finished with status 'done'
+  Created wheel for memoized-property: filename=memoized_property-1.0.3-py2.py3-none-any.whl size=4184 sha256=8c6c16cc077c5fdaddb92657928cd1887bd6ed844149bff73668907f9e1b750e
+  Stored in directory: /root/.cache/pip/wheels/9f/b0/46/efa2c4a4875990b1467f5ed29dd8983eda2144c5b8be9441a2
+  Building wheel for typechecks (setup.py): started
+  Building wheel for typechecks (setup.py): finished with status 'done'
+  Created wheel for typechecks: filename=typechecks-0.1.0-py3-none-any.whl size=2753 sha256=a4aaa89fb090f477953ed72eaf35d0a90e61073d946d0601d6a690f503d748ee
+  Stored in directory: /root/.cache/pip/wheels/73/ba/11/9306f233c79efd4751f2552ac81bbbd6948f2f48a289ac03b9
+  Building wheel for tinytimer (setup.py): started
+  Building wheel for tinytimer (setup.py): finished with status 'done'
+  Created wheel for tinytimer: filename=tinytimer-0.0.0-py3-none-any.whl size=1874 sha256=c6523ddebeb2cc6acf87d8d07c0780e3734a6b7f2e0655a5d91a054c0bb7754c
+  Stored in directory: /root/.cache/pip/wheels/5e/49/55/496abc38bb3a0d8e4847d05be5e8db29c26444643fcdfa0044
+  Building wheel for progressbar33 (setup.py): started
+  Building wheel for progressbar33 (setup.py): finished with status 'done'
+  Created wheel for progressbar33: filename=progressbar33-2.4-py3-none-any.whl size=12145 sha256=d9189f8209e92945655b083685844f56ed1e83fedf310664172d161651777cad
+  Stored in directory: /root/.cache/pip/wheels/2e/57/74/e8389a1a769c071f2c76c2b33e4896131f2e6033189c82d08f
+Successfully built loompy antlr4-python3-runtime pyensembl gtfparse memoized-property typechecks tinytimer progressbar33
+Installing collected packages: typechecks, triton, tinytimer, texttable, pytz, progressbar33, nvidia-cusparselt-cu12, nose, mpmath, memoized-property, appdirs, antlr4-python3-runtime, xxhash, wrapt, urllib3, tzdata, typing-extensions, tqdm, tomlkit, threadpoolctl, sympy, smmap, six, simplejson, session-info2, safetensors, regex, pyyaml, pyparsing, PyJWT, pycparser, pyarrow-hotfix, pyarrow, psutil, propcache, platformdirs, pillow, packaging, nvidia-nvtx-cu12, nvidia-nvjitlink-cu12, nvidia-nccl-cu12, nvidia-curand-cu12, nvidia-cufft-cu12, nvidia-cuda-runtime-cu12, nvidia-cuda-nvrtc-cu12, nvidia-cuda-cupti-cu12, nvidia-cublas-cu12, numpy, networkx, natsort, multidict, mock, mccabe, MarkupSafe, llvmlite, legacy-api-wrap, kiwisolver, joblib, isort, isodate, igraph, idna, fsspec, frozenlist, fonttools, filelock, einops, dill, cycler, click, charset-normalizer, certifi, attrs, astroid, array-api-compat, aiohappyeyeballs, yarl, serializable, scipy, scikit-misc, requests, python-dateutil, pylint, pydot, patsy, omegaconf, nvidia-cusparse-cu12, nvidia-cudnn-cu12, numpy-groupies, numba, multiprocess, louvain, leidenalg, jinja2, h5py, gitdb, deprecated, contourpy, cffi, aiosignal, scikit-learn, pandas, nvidia-cusolver-cu12, matplotlib, loompy, hydra-core, huggingface-hub, gitpython, cryptography, azure-core, aiohttp, torch, tokenizers, statsmodels, seaborn, pynndescent, gtfparse, datacache, azure-storage-blob, anndata, umap-learn, transformers, torchvision, pyensembl, msal, datasets, accelerate, scanpy, msal-extensions, scib, azure-identity, helical
+Successfully installed MarkupSafe-3.0.2 PyJWT-2.10.1 accelerate-1.4.0 aiohappyeyeballs-2.6.1 aiohttp-3.11.14 aiosignal-1.3.2 anndata-0.11.0 antlr4-python3-runtime-4.9.3 appdirs-1.4.4 array-api-compat-1.11.2 astroid-3.3.9 attrs-25.3.0 azure-core-1.30.1 azure-identity-1.16.1 azure-storage-blob-12.19.1 certifi-2025.1.31 cffi-1.17.1 charset-normalizer-3.4.1 click-8.1.8 contourpy-1.3.1 cryptography-44.0.2 cycler-0.12.1 datacache-1.4.1 datasets-2.20.0 deprecated-1.2.18 dill-0.3.8 einops-0.8.0 filelock-3.18.0 fonttools-4.56.0 frozenlist-1.5.0 fsspec-2024.5.0 gitdb-4.0.12 gitpython-3.1.43 gtfparse-1.3.0 h5py-3.13.0 helical-0.0.1a27 huggingface-hub-0.30.0 hydra-core-1.3.2 idna-3.10 igraph-0.11.8 isodate-0.7.2 isort-6.0.1 jinja2-3.1.6 joblib-1.4.2 kiwisolver-1.4.8 legacy-api-wrap-1.4.1 leidenalg-0.10.2 llvmlite-0.44.0 loompy-3.0.7 louvain-0.8.2 matplotlib-3.10.1 mccabe-0.7.0 memoized-property-1.0.3 mock-5.2.0 mpmath-1.3.0 msal-1.32.0 msal-extensions-1.3.1 multidict-6.2.0 multiprocess-0.70.16 natsort-8.4.0 networkx-3.4.2 nose-1.3.7 numba-0.61.0 numpy-1.26.4 numpy-groupies-0.11.2 nvidia-cublas-cu12-12.4.5.8 nvidia-cuda-cupti-cu12-12.4.127 nvidia-cuda-nvrtc-cu12-12.4.127 nvidia-cuda-runtime-cu12-12.4.127 nvidia-cudnn-cu12-9.1.0.70 nvidia-cufft-cu12-11.2.1.3 nvidia-curand-cu12-10.3.5.147 nvidia-cusolver-cu12-11.6.1.9 nvidia-cusparse-cu12-12.3.1.170 nvidia-cusparselt-cu12-0.6.2 nvidia-nccl-cu12-2.21.5 nvidia-nvjitlink-cu12-12.4.127 nvidia-nvtx-cu12-12.4.127 omegaconf-2.3.0 packaging-24.2 pandas-2.2.2 patsy-1.0.1 pillow-11.1.0 platformdirs-4.3.7 progressbar33-2.4 propcache-0.3.1 psutil-7.0.0 pyarrow-19.0.1 pyarrow-hotfix-0.6 pycparser-2.22 pydot-3.0.4 pyensembl-2.2.9 pylint-3.3.6 pynndescent-0.5.13 pyparsing-3.2.3 python-dateutil-2.9.0.post0 pytz-2025.2 pyyaml-6.0.2 regex-2024.11.6 requests-2.32.3 safetensors-0.5.3 scanpy-1.11.1 scib-1.1.5 scikit-learn-1.5.2 scikit-misc-0.3.1 scipy-1.13.1 seaborn-0.13.2 serializable-0.4.1 session-info2-0.1.2 simplejson-3.20.1 six-1.17.0 smmap-5.0.2 statsmodels-0.14.4 sympy-1.13.1 texttable-1.7.0 threadpoolctl-3.6.0 tinytimer-0.0.0 tokenizers-0.21.1 tomlkit-0.13.2 torch-2.6.0 torchvision-0.21.0 tqdm-4.67.1 transformers-4.49.0 triton-3.2.0 typechecks-0.1.0 typing-extensions-4.13.0 tzdata-2025.2 umap-learn-0.5.7 urllib3-2.3.0 wrapt-1.17.2 xxhash-3.5.0 yarl-1.18.3
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+[notice] A new release of pip is available: 24.0 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
+INFO:    Adding labels
+INFO:    Creating sandbox directory...
+INFO:    Build complete: helical_container/
+INFO:    Starting build...
+INFO:    Extracting local image...
+INFO:    Creating SIF file...
+INFO:    To see mksquashfs output with progress bar enable verbose logging
+INFO:    Build complete: helical_container.sif
