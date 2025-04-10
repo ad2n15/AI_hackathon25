@@ -8,3 +8,18 @@ ls /tmp/
 ls -ltr /tmp/
 find / -name "jupyter" 2>/dev/null
 exit
+runoa
+runoaK
+runoak
+exit
+ontogpt 
+ontogpt
+pip show ontogpt
+python
+pip install ontogpt[docs]
+pip install ontogpt[recipes]
+pip install ontogpt[web]
+runoak
+python
+exit() exit
+exit
