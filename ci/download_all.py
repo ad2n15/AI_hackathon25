@@ -64,28 +64,6 @@ def main():
     downloader.download_via_name("uce/species_offsets.pkl")
 
 
-    # Add the Ensembl GTF file
-    downloader.download_via_link(
-        Path(".cache/pyensembl/GRCh38/ensembl110/Homo_sapiens.GRCh38.110.gtf.gz"),
-        "https://ftp.ensembl.org/pub/release-110/gtf/homo_sapiens/Homo_sapiens.GRCh38.110.gtf.gz"
-    )
-
-
-
-    downloader.download_via_link(
-        Path(".cache/pyensembl/GRCh38/ensembl110/Homo_sapiens.GRCh38.cdna.all.fa.gz"),
-        "https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz"
-    )
-
-
-    downloader.download_via_link(
-        Path(".cache/pyensembl/GRCh38/ensembl110/Homo_sapiens.GRCh38.ncrna.fa.gz"),
-        "https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/ncrna/Homo_sapiens.GRCh38.ncrna.fa.gz"
-    )
-
-
-
-
 
 
     downloader.download_via_name(
