@@ -137,6 +137,51 @@ def main():
         Path("yolksac_human.h5ad"),
         "https://huggingface.co/datasets/helical-ai/yolksac_human/resolve/main/data/17_04_24_YolkSacRaw_F158_WE_annots.h5ad?download=true",
     )
+
+    output_path = Path(".cache/pyensembl/GRCh38/ensembl110/Homo_sapiens.GRCh38.110.gtf.gz")
+    output_path.parent.mkdir(parents=True, exist_ok=True)  # Create parent dirs if needed
+
+    downloader.download_via_link(
+        output_path,
+        "https://ftp.ensembl.org/pub/release-110/gtf/homo_sapiens/Homo_sapiens.GRCh38.110.gtf.gz"
+    )
+
+
+
+    # Download Ensembl GTF and cDNA FASTA files (GRCh38, release 110)
+    gtf_output_path = Path(".cache/pyensembl/GRCh38/ensembl110/Homo_sapiens.GRCh38.110.gtf.gz")
+    gtf_output_path.parent.mkdir(parents=True, exist_ok=True)
+    downloader.download_via_link(
+        gtf_output_path,
+        "https://ftp.ensembl.org/pub/release-110/gtf/homo_sapiens/Homo_sapiens.GRCh38.110.gtf.gz"
+    )
+
+    fasta_output_path = Path(".cache/pyensembl/GRCh38/ensembl110/Homo_sapiens.GRCh38.cdna.all.fa.gz")
+    fasta_output_path.parent.mkdir(parents=True, exist_ok=True)
+    downloader.download_via_link(
+        fasta_output_path,
+        "https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz"
+    )
+
+
+    # Download Ensembl ncRNA FASTA file (GRCh38, release 110)
+    ncrna_output_path = Path(".cache/pyensembl/GRCh38/ensembl110/Homo_sapiens.GRCh38.ncrna.fa.gz")
+    ncrna_output_path.parent.mkdir(parents=True, exist_ok=True)
+    downloader.download_via_link(
+        ncrna_output_path,
+        "https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/ncrna/Homo_sapiens.GRCh38.ncrna.fa.gz"
+    )
+
+
+    # Download Ensembl protein FASTA file (GRCh38, release 110)
+    pep_output_path = Path(".cache/pyensembl/GRCh38/ensembl110/Homo_sapiens.GRCh38.pep.all.fa.gz")
+    pep_output_path.parent.mkdir(parents=True, exist_ok=True)
+    downloader.download_via_link(
+        pep_output_path,
+        "https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/pep/Homo_sapiens.GRCh38.pep.all.fa.gz"
+    )
+
+
     return True
 
 

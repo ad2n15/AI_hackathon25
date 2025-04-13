@@ -1,0 +1,154 @@
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/4layer_model.torch'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/4layer_model.torch'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/all_tokens.torch'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/all_tokens.torch'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/species_chrom.csv'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/species_chrom.csv'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/species_offsets.pkl'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/species_offsets.pkl'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/protein_embeddings
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/protein_embeddings/Homo_sapiens.GRCh38.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/protein_embeddings/Homo_sapiens.GRCh38.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/protein_embeddings/Macaca_fascicularis.Macaca_fascicularis_6.0.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/protein_embeddings/Macaca_fascicularis.Macaca_fascicularis_6.0.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/protein_embeddings/Danio_rerio.GRCz11.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/protein_embeddings/Danio_rerio.GRCz11.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/protein_embeddings/Macaca_mulatta.Mmul_10.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/protein_embeddings/Macaca_mulatta.Mmul_10.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/protein_embeddings/Microcebus_murinus.Mmur_3.0.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/protein_embeddings/Microcebus_murinus.Mmur_3.0.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/protein_embeddings/Mus_musculus.GRCm39.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/protein_embeddings/Mus_musculus.GRCm39.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/protein_embeddings/Sus_scrofa.Sscrofa11.1.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/protein_embeddings/Sus_scrofa.Sscrofa11.1.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/uce/protein_embeddings/Xenopus_tropicalis.Xenopus_tropicalis_v9.1.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/uce/protein_embeddings/Xenopus_tropicalis.Xenopus_tropicalis_v9.1.gene_symbol_to_embedding_ESM2.pt'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/scgpt/scGPT_CP
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/scgpt/scGPT_CP/vocab.json'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/scgpt/scGPT_CP/vocab.json'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/scgpt/scGPT_CP/best_model.pt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/scgpt/scGPT_CP/best_model.pt'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v1/gene_median_dictionary.pkl'
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 941k/941k [00:00<00:00, 1.61MB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1/gene_median_dictionary.pkl'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v1/token_dictionary.pkl'
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 788k/788k [00:00<00:00, 4.62MB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1/token_dictionary.pkl'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v1/ensembl_mapping_dict.pkl'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3.96M/3.96M [00:00<00:00, 9.29MB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1/ensembl_mapping_dict.pkl'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1/gf-12L-30M-i2048
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v1/gf-12L-30M-i2048/config.json'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 567/567 [00:00<00:00, 6.58kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1/gf-12L-30M-i2048/config.json'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v1/gf-12L-30M-i2048/training_args.bin'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2.61k/2.61k [00:00<00:00, 30.0kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1/gf-12L-30M-i2048/training_args.bin'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v1/gf-12L-30M-i2048/pytorch_model.bin'
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 158M/158M [00:03<00:00, 45.6MB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1/gf-12L-30M-i2048/pytorch_model.bin'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1/gf-6L-30M-i2048
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v1/gf-6L-30M-i2048/config.json'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 565/565 [00:00<00:00, 6.49kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1/gf-6L-30M-i2048/config.json'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v1/gf-6L-30M-i2048/training_args.bin'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2.61k/2.61k [00:00<00:00, 29.8kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1/gf-6L-30M-i2048/training_args.bin'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v1/gf-6L-30M-i2048/pytorch_model.bin'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 41.2M/41.2M [00:02<00:00, 14.1MB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v1/gf-6L-30M-i2048/pytorch_model.bin'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gene_median_dictionary.pkl'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1.51M/1.51M [00:00<00:00, 8.64MB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gene_median_dictionary.pkl'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/token_dictionary.pkl'
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 426k/426k [00:00<00:00, 4.71MB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/token_dictionary.pkl'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/ensembl_mapping_dict.pkl'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3.96M/3.96M [00:00<00:00, 14.5MB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/ensembl_mapping_dict.pkl'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-12L-95M-i4096
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-12L-95M-i4096/config.json'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 591/591 [00:00<00:00, 6.81kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-12L-95M-i4096/config.json'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-12L-95M-i4096/training_args.bin'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4.92k/4.92k [00:00<00:00, 56.6kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-12L-95M-i4096/training_args.bin'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-12L-95M-i4096/generation_config.json'
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 90.0/90.0 [00:00<00:00, 1.04kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-12L-95M-i4096/generation_config.json'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-12L-95M-i4096/model.safetensors'
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 152M/152M [00:02<00:00, 51.1MB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-12L-95M-i4096/model.safetensors'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-12L-95M-i4096-CLcancer
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-12L-95M-i4096-CLcancer/config.json'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 760/760 [00:00<00:00, 8.65kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-12L-95M-i4096-CLcancer/config.json'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-12L-95M-i4096-CLcancer/training_args.bin'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5.05k/5.05k [00:00<00:00, 57.1kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-12L-95M-i4096-CLcancer/training_args.bin'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-12L-95M-i4096-CLcancer/generation_config.json'
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 90.0/90.0 [00:00<00:00, 1.03kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-12L-95M-i4096-CLcancer/generation_config.json'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-12L-95M-i4096-CLcancer/model.safetensors'
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 152M/152M [00:03<00:00, 46.0MB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-12L-95M-i4096-CLcancer/model.safetensors'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-20L-95M-i4096
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-20L-95M-i4096/config.json'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 592/592 [00:00<00:00, 6.76kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-20L-95M-i4096/config.json'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-20L-95M-i4096/training_args.bin'
+Downloading: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5.05k/5.05k [00:00<00:00, 57.8kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-20L-95M-i4096/training_args.bin'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-20L-95M-i4096/generation_config.json'
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 90.0/90.0 [00:00<00:00, 1.03kB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-20L-95M-i4096/generation_config.json'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/geneformer/v2/gf-20L-95M-i4096/model.safetensors'
+Downloading: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 605M/605M [00:06<00:00, 94.1MB/s]
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/geneformer/v2/gf-20L-95M-i4096/model.safetensors'
+INFO:__main__:All Geneformer models and files have been downloaded.
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/hyena_dna
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/hyena_dna/hyenadna-tiny-1k-seqlen.ckpt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/hyena_dna/hyenadna-tiny-1k-seqlen.ckpt'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/hyena_dna/hyenadna-tiny-1k-seqlen-d256.ckpt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/hyena_dna/hyenadna-tiny-1k-seqlen-d256.ckpt'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/hyena_dna/hyenadna-small-32k-seqlen.ckpt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/hyena_dna/hyenadna-small-32k-seqlen.ckpt'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/hyena_dna/hyenadna-medium-450k-seqlen.ckpt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/hyena_dna/hyenadna-medium-450k-seqlen.ckpt'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/hyena_dna/hyenadna-large-1m-seqlen.ckpt'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/hyena_dna/hyenadna-large-1m-seqlen.ckpt'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ph-16L-seqlen-131k-d256
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ph-16L-seqlen-131k-d256/model.safetensors'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ph-16L-seqlen-131k-d256/model.safetensors'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ph-16L-seqlen-131k-d256/config.json'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ph-16L-seqlen-131k-d256/config.json'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ph-4L-seqlen-1k-d118
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ph-4L-seqlen-1k-d118/model.safetensors'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ph-4L-seqlen-1k-d118/model.safetensors'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ph-4L-seqlen-1k-d118/config.json'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ph-4L-seqlen-1k-d118/config.json'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ph-4L-seqlen-1k-d256
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ph-4L-seqlen-1k-d256/model.safetensors'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ph-4L-seqlen-1k-d256/model.safetensors'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ph-4L-seqlen-1k-d256/config.json'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ph-4L-seqlen-1k-d256/config.json'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ps-16L-seqlen-131k-d256
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ps-16L-seqlen-131k-d256/model.safetensors'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ps-16L-seqlen-131k-d256/model.safetensors'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ps-16L-seqlen-131k-d256/config.json'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ps-16L-seqlen-131k-d256/config.json'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ps-4L-seqlen-1k-d118
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ps-4L-seqlen-1k-d118/model.safetensors'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ps-4L-seqlen-1k-d118/model.safetensors'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ps-4L-seqlen-1k-d118/config.json'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ps-4L-seqlen-1k-d118/config.json'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ps-4L-seqlen-1k-d256
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ps-4L-seqlen-1k-d256/model.safetensors'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ps-4L-seqlen-1k-d256/model.safetensors'
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/caduceus/caduceus-ps-4L-seqlen-1k-d256/config.json'
+INFO:helical.utils.downloader:File saved to: '/iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/caduceus/caduceus-ps-4L-seqlen-1k-d256/config.json'
+INFO:helical.utils.downloader:Creating Folder /iridisfs/ddnb/Ahmed/AI_hackathon25/.cache/helical/models/genept/genept_embeddings
+INFO:helical.utils.downloader:File does not exist or has incorrect hash. Starting to download: 'https://helicalpackage.blob.core.windows.net/helicalpackage/data/genept/genept_embeddings/genept_embeddings.json

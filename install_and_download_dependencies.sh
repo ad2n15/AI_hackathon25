@@ -45,8 +45,80 @@ apptainer exec -H $PWD \
 --nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
 python3 ci/download_all.py
 
-# download models
+###############################################
+
+# test geneformer
+
 apptainer exec -H $PWD \
 --bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
 --nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/download_helical_models.py
+python3 ci/tests/test_geneformer/test_geneformer_model.py
+
+
+apptainer exec -H $PWD \
+--bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
+--nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+python3 ci/tests/test_geneformer/test_geneformer_tokenizer.py
+
+################################################
+# test utils
+
+apptainer exec -H $PWD \
+--bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
+--nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+python3 ci/tests/test_utils/test_converter.py
+
+apptainer exec -H $PWD \
+--bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
+--nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+python3 ci/tests/test_utils/test_mapping.py
+
+###################
+# test hyena
+
+apptainer exec -H $PWD \
+--bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
+--nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+python3 ci/tests/test_hyena_dna/test_hyena_dna_model.py
+
+
+
+apptainer exec -H $PWD \
+--bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
+--nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+python3 notebooks//test_hyena_dna/test_hyena_dna_fine_tuning.py
+
+##############################
+
+# test uce
+
+apptainer exec -H $PWD \
+--bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
+--nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+python3 ci/tests/test_uce/test_gene_embeddings.py
+
+
+apptainer exec -H $PWD \
+--bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
+--nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+python3 ci/tests/test_uce/test_uce_config.py
+
+################################################
+# test scgpt
+
+apptainer exec -H $PWD \
+--bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
+--nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+python3 ci/tests/test_scgpt/test_scgpt_utils.py
+
+apptainer exec -H $PWD \
+--bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
+--nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+python3 ci/tests/test_scgpt/test_scgpt_model.py
+
+
+apptainer exec -H $PWD \
+--bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
+--nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+python3 ci/tests/test_scgpt/test_binning.py
+
