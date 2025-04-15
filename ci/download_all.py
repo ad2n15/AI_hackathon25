@@ -1,6 +1,7 @@
 from helical.utils.downloader import Downloader
 from pathlib import Path
 import logging
+from datasets import load_dataset
 
 LOGGER = logging.getLogger(__name__)
 
@@ -182,8 +183,27 @@ def main():
     )
 
 
+def download_nucleotide_transformer_dataset():
+    # List of dataset splits to download
+    dataset_label = "promoter_tata"
+    splits = ["train", "test"]
+
+    for split in splits:
+        print(f"Downloading and caching split: {split} for dataset: {dataset_label}")
+        _ = load_dataset(
+            "InstaDeepAI/nucleotide_transformer_downstream_tasks_revised",
+            dataset_label,
+            split=split,
+            trust_remote_code=True,
+        )
+
+
+
     return True
 
 
 if __name__ == "__main__":
+
+
     main()
+    download_nucleotide_transformer_dataset()
