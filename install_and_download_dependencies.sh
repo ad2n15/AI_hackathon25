@@ -16,9 +16,11 @@
 module load apptainer
 
 # install jupyter
+module load apptainer
+
 apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+--bind $HOME/AI_hackathon25:/home/$(whoami)/AI_hackathon25 \
+--nv --fakeroot helical/helical_container.sif \
 pip install jupyter
 
 # modify permissions for jupyter runtime directory
@@ -30,8 +32,8 @@ chmod -R 700 .local/share/jupyter/runtime/
 
 # install ontogpt and its dependencies
 apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
+--bind $HOME/AI_hackathon25:/home/$(whoami)/AI_hackathon25 \
+--nv --fakeroot helical/helical_container.sif \
 pip install ontogpt ontogpt[docs] ontogpt[recipes] ontogpt[web]
 
 
@@ -40,85 +42,47 @@ pip install ontogpt ontogpt[docs] ontogpt[recipes] ontogpt[web]
 
 # download all data files
 # This script is used to download all the necessary data files for the Helical project.
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/download_all.py
+./run_python3.sh ci/download_all.py
 
 ###############################################
 
 # test geneformer
 
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/tests/test_geneformer/test_geneformer_model.py
+./run_python3.sh ci/tests/test_geneformer/test_geneformer_model.py
 
 
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/tests/test_geneformer/test_geneformer_tokenizer.py
+./run_python3.sh ci/tests/test_geneformer/test_geneformer_tokenizer.py
 
 ################################################
 # test utils
 
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/tests/test_utils/test_converter.py
+./run_python3.sh ci/tests/test_utils/test_converter.py
 
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/tests/test_utils/test_mapping.py
+./run_python3.sh ci/tests/test_utils/test_mapping.py
 
 ###################
 # test hyena
 
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/tests/test_hyena_dna/test_hyena_dna_model.py
+./run_python3.sh ci/tests/test_hyena_dna/test_hyena_dna_model.py
 
-
-
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 notebooks//test_hyena_dna/test_hyena_dna_fine_tuning.py
+./run_python3.sh ci/tests/test_hyena_dna/test_hyena_dna_fine_tuning.py
 
 ##############################
 
 # test uce
 
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/tests/test_uce/test_gene_embeddings.py
+./run_python3.sh ci/tests/test_uce/test_gene_embeddings.py
 
 
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/tests/test_uce/test_uce_config.py
+./run_python3.sh ci/tests/test_uce/test_uce_config.py
 
 ################################################
 # test scgpt
 
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/tests/test_scgpt/test_scgpt_utils.py
+./run_python3.sh ci/tests/test_scgpt/test_scgpt_utils.py
 
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/tests/test_scgpt/test_scgpt_model.py
+./run_python3.sh ci/tests/test_scgpt/test_scgpt_model.py
 
 
-apptainer exec -H $PWD \
---bind /iridisfs/ddnb/Ahmed/AI_hackathon25:/iridisfs/ddnb/Ahmed/AI_hackathon25 \
---nv --fakeroot /iridisfs/ddnb/Ahmed/AI_hackathon25/helical/helical_container.sif \
-python3 ci/tests/test_scgpt/test_binning.py
+./run_python3.sh ci/tests/test_scgpt/test_binning.py
 
