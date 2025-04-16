@@ -19,7 +19,7 @@ module load apptainer
 module load apptainer
 
 apptainer exec -H $PWD \
---bind $HOME/AI_hackathon25:/home/$(whoami)/AI_hackathon25 \
+--bind "$PWD:/workspace" \
 --nv --fakeroot helical/helical_container.sif \
 pip install jupyter
 
@@ -32,7 +32,7 @@ chmod -R 700 .local/share/jupyter/runtime/
 
 # install ontogpt and its dependencies
 apptainer exec -H $PWD \
---bind $HOME/AI_hackathon25:/home/$(whoami)/AI_hackathon25 \
+--bind "$PWD:/workspace" \
 --nv --fakeroot helical/helical_container.sif \
 pip install ontogpt ontogpt[docs] ontogpt[recipes] ontogpt[web]
 
