@@ -9,6 +9,8 @@
 
 *.sif
 *.h5ad
+*.pth
+*.pkl
 
 *.egg-info
 __pycache__
