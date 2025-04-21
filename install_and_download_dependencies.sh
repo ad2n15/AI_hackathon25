@@ -67,6 +67,7 @@ pip install ontogpt ontogpt[docs] ontogpt[recipes] ontogpt[web]
 
 ./run_python3.sh ci/tests/test_hyena_dna/test_hyena_dna_fine_tuning.py
 
+./run_python3.sh ci/download_hyena_model2.py
 ##############################
 
 # test uce
