@@ -2,6 +2,13 @@
 
 Welcome to the **AI Hackathon 2025**! This project focuses on fine-tuning and prompt engineering using state-of-the-art models in a containerized environment.
 
+**You can find a ready-to-use copy of this repository in iridis-X (/scratch/aazd1f17/shared_space/AI_hackathon25)**
+
+```bash
+
+cp -r /scratch/aazd1f17/shared_space/AI_hackathon25 .
+
+```
 ---
 
 ## 🚀 Setup Instructions
@@ -91,10 +98,3 @@ ollama pull gemma:7b
 
 ---
 
-## ✅ Project Status & Next Steps
-
-- [x] Ahmed: Integrate OntoGPT
-- [x] Ahmed: Download LLaMA model
-- [ ] Alex: Test notebooks
-- [ ] Ahmed & Alex: Prepare 30-minute presentation
-- [ ] Ahmed & Alex: Define competition & marking criteria
