@@ -36,3 +36,21 @@ find / -name ontogpt 2>/dev/null
 export PATH=$PATH:.local/bin
 ontogpt 
 runoak
+import os
+# Prepend ../.local/bin to the current PATH
+os.environ["PATH"] = os.path.join("../.local/bin") + ":" + os.environ.get("PATH", "")
+export PATH="../.local/bin:$PATH"
+ontogpt complete --help
+import os
+# Prepend ../.local/bin to the current PATH
+os.environ["PATH"] = os.path.join(".local/bin") + ":" + os.environ.get("PATH", "")
+export PATH=".local/bin:$PATH"
+ontogpt complete --help
+ontogpt list-templates
+#!/bin/bash
+# Get all template names (first column of output)
+templates=$(ontogpt list-templates | awk 'NR>1 {print $1}')
+# Loop over each template and extract example output
+for template in $templates; do     echo "Fetching template: $template";     ontogpt extract -t "$template" -i ~/path/to/abstract.txt > "${template}.json"; done
+ls -ltr
+exit
