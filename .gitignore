@@ -1,4 +1,6 @@
 # exclude the following files
+.data/oaklib/go.db
+.data/oaklib/go.db.gz
 
 .cache/
 .config/
