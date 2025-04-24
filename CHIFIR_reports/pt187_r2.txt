@@ -1,0 +1,68 @@
+"URNO     XXXXXXXXX 
+Lab No    XXXXXXXXX        Specimen  TISSUE 
+
+
+
+CLINICAL NOTES: 
+
+?GVHD vs CMV.  
+
+MACROSCOPIC DESCRIPTION: 
+
+1. ""Upper oesophagus Bx"": Six pale pieces of tissue 1-5mm. 6A1.  
+
+2. ""Mid oesophagus Bx"": Three pieces of tissue 1-3mm. 5A1.  
+
+3. ""Lower oesophagus Bx"": Four pieces of tissue 1-3mm. 4A1.  
+
+4. ""Body Bx"": A single piece of tissue 3mm. 1A1.  
+
+5. ""Antrum Bx"": A single piece of tissue 5mm. 1A1.  
+
+6. ""D1 Bx"": Two pieces of tissue 2mm each. 2A1.  
+
+7. ""D2 Bx"": A single piece of tissue 3mm. 1A1.  
+
+CMV has been ordered on specimens 1, 2 & 3. (XX) 
+
+MICROSCOPIC DESCRIPTION: 
+
+1. Sections show fragments of stratified squamous epithelium with minimal attached stroma. There is mild spongiosis and a mild increase in the number of intraepithelial lymphocytes. Very occasional apoptosis are noted. No fungal viral viral 
+inclusions are seen. There is no evidence of malignancy. 
+
+2. Features are similar to specimen 1 except there are scattered apoptosis at all levels of the epithelium. 
+
+3. Features are similar to this specimen 1. 
+
+4. The biopsy of gastric specialised mucosa with muscularis mucosae shows normal architecture and lamina propria with a normal complement of scattered inflammatory cells. Surface epithelium is larger strip. Helicobacter are not identified. There is no 
+intestinal metaplasia, dysplasia or malignancy. 
+
+5. The biopsy of gastric antral mucosa with muscularis mucosae shows normal architecture and lamina propria with a normal complement of scattered inflammatory cells. Helicobacter are not identified. There is no intestinal metaplasia, dysplasia or 
+malignancy. 
+
+6. Sections show fragments of small bowel mucosa including muscularis mucosa and Brunner's gland. There is mild villous shortening and blunting without increased intraepithelial lymphocytes. The lamina propria and and normal cell population. No 
+parasites are seen.  
+
+7. Fragments of small bowel mucosa with muscularis mucosae and Brunner's glands show normal crypt/villi architecture. There is normal epithelium with no increase in intraepithelial lymphocytes. The lamina propria contains a normal complement of cells. 
+Parasites are not seen. Apoptosis is not prominent. 
+
+Cytomegalovirus immunohistochemistry is negative in specimens 1-3. 
+
+
+DIAGNOSIS: 
+
+1. Upper oesophagus BX: Minor non-specific changes. 
+
+2. Mid oesophagus BX: Moderate apoptosis 
+
+3. Lower oesophagus Bx: Minor non-specific changes. 
+
+4. Body BX: Normal gastric mucosa 
+
+5. Antrum BX: Normal gastric mucosa 
+
+6. D1 BX: Minor non-specific changes 
+
+7. D2 BX: Normal duodenal mucosa. 
+
+Comment: Features in the oesophageal biopsies are suggestive for graft versus host disease. CMV immunohistochemistry is negative."

@@ -1,0 +1,35 @@
+"URNO     XXXXXXXXX 
+Lab No    XXXXXXXXX        Specimen  TISSUE 
+
+
+CLINICAL NOTES 
+Post second allograft for relapsed acute undifferentiated leukaemia. Diarrhoea plus plus, fevers, enterocolitis + query early pneumatosis coli on CT. ? GVHD ? Infective 
+
+MACROSCOPIC DESCRIPTION 
+1. Terminal ileum. 6 pale-tan tissue fragments 2-4 mm. A 1 
+2. Right side colon. 4 pale tan tissue fragments each 4 mm. A1. 
+3. Left side colon. 4 pale tan tissue fragments each 4 mm. A1. 
+4. Rectum. 2 pale tan tissue fragments each 4 mm. A1. 
+
+MICROSCOPIC DESCRIPTION 
+1. Sections show fragments of extensively denuded small bowel mucosa including muscularis mucosa and acute inflammatory exudate. There is almost total loss of the epithelium with some residual markedly reactive surface epithelium. Most of the lamina 
+propria resembles granulation tissue with a mostly mononuclear chronic inflammatory cell infiltrate, and only occasional neutrophils. The overall cellularity is low. No granulomas. No viral inclusions are seen. No malignant cells identified. 
+
+2-4. Sections show fragments of large bowel mucosa including muscularis mucosa. Crypt architecture is essentially within normal limits. The surface epithelium is variably denuded and were intact appears reactive. There are numerous apoptosis, 
+predominately of the crypt bases and many crypts are filled with apoptotic debris, and occasional crypts are lost. The lamina propria contains a relatively light of mononuclear chronic inflammatory cell infiltrate. No granulomas. Neutrophils are not 
+prominent. No viral inclusions are seen. No malignant cells identified. 
+
+DIAGNOSIS 
+1. Terminal ileum: Severely denuded/ulcerated small bowel mucosa. The appearance is non-specific but consistent with severe graft-versus-host disease. 
+
+2-4. Right side colon, left side colon, Rectum: Marked apoptotic colopathy, highly suggestive of graft-versus-host-disease. 
+
+
+Comment: Cytomegalovirus immunostains are to follow. 
+
+Reported by Dr XXXXXXXXXXXXXXXX 
+
+
+
+SUPPLEMENTARY REPORT: Dr XXXXXXXXXX, XXXXXXXXXX 
+CMV immunohistochemistry is negative on all biopsies."

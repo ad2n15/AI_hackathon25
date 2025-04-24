@@ -1,0 +1,37 @@
+"URNO     XXXXXXXXX 
+Lab No    XXXXXXXXX        Specimen  TISSUE 
+
+
+CLINICAL NOTES: 
+
+extensive pneumatosis coli from caecum to descending colon 
+PMH: lymphoma, BMT, graft vs host disease 
+extended right hemicolectomy 
+?colitis 
+?CMV 
+?perforation 
+
+MACROSCOPIC DESCRIPTION: 
+
+""Extended right hemicolectomy"": One segment of small bowel (normal appearing), and a right hemicolectomy including appendix and terminal ileum. The separate small bowel is 30mm in length with a diameter of 25mm and staple lines 20mm and 30mm, with 
+bowel wall thickness 2-3mm and normal appearing mucosa. The hemicolectomy features small bowel 520mm in length with a diameter of 40-50mm, with extensive subserosal emphysema, with bowel wall thickness 2-3mm throughout and mucosa which is patchy and red 
+throughout the length, with prominent mucosal folds without polyps, masses or ulcers. The mesocolon is up to 40mm long. The appendix is 60mm long and up to 5mm wide with mesoappendix up to 20mm. The terminal ileum is 20mm long and 20mm wide with 
+normal appearing mucosa.  
+
+BLOCK DESIGNATION: 
+1.1-1.10 - representative sections of bowel wall from distal to proximal. 
+1.11 - appendix. 
+1.12 - small bowel margin with nick toward margin. 
+1.13&1.14 - fat and a bisected lymph node. 
+1.15 - separate small bowel and section through fat. P15. (XX) 
+
+MICROSCOPIC DESCRIPTION: 
+
+The sections show extensive pneumatosis coli with air spaces present in submucosa and subserosa. The serosa features a mild reactive fibrotic change. A foreign body giant cell reaction to air is present. The crypts show scattered apoptoses and some 
+luminal necrotic debris. There are no pseudomembranes. There are no granulomata. There is no vasculitis, vessel thrombi or emboli. There is no evidence of malignancy. 
+
+DIAGNOSIS: 
+
+Extended right hemicolectomy: Pneumatosis coli and mild graft versus host disease. There is no evidence of ishchaemia or severe colitis. 
+
+Comment: The cause of the pneumatosis is unclear. Additional stains for organisms including CMV immunohistochemistry are pending."

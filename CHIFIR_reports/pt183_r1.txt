@@ -1,0 +1,33 @@
+"URNO     XXXXXXXXX 
+Lab No    XXXXXXXXX        Specimen  TISSUE 
+
+
+CLINICAL NOTES: 
+Recent BM Tx. ? GVHD. Flex Sig - descending/sigmoid ulceration + erythema, rectum normal. 
+
+MACROSCOPIC DESCRIPTION: 
+1. ""Descending colon Bx"": Three grey tissue fragments 3-4mm. A1. 
+
+2. ""Sigmoid Bx"": Two grey tissue fragments 2-6mm. A1. 
+
+3. ""Rectal Bx"": Two grey tissue fragments 5-6mm. A1. (XX) 
+
+MICROSCOPIC DESCRIPTION: 
+1. Sections show fragments of large bowel mucosa including muscularis mucosae. There is a focus of ulceration. The lamina propria appears within normal limits. Crypt architecture is also within normal limits. Crypt epithelium shows a few apoptoses 
+at the mid-crypt and basal regions. There is no evidence of malignancy. No viral inclusion seen. 
+
+2. Sections show fragments of large bowel mucosa including muscularis mucosae. Crypt architecture is within normal limits. There is a focal mixed infiltrate of neutrophils, eosinophils and mononuclear chronic inflammatory cells which involves the 
+lamina propria and a few crypts. There are a few crypt base apoptoses. There is no evidence of malignancy. . No viral inclusion seen. 
+
+3. Sections show fragments of large bowel mucosa including muscularis mucosae. Crypt architecture is within normal limits. There is no significant inflammation and no apoptoses seen. No viral inclusion seen. 
+
+Immunohistochemistry for CMV, HSV1 and HSV2 are negative in specimens 1-3. 
+
+DIAGNOSIS: 
+1. Descending colon Bx: Apoptotic colopathy and ulceration. 
+2. Sigmoid Bx: Focal acute colitis. 
+3. Rectal Bx: Normal large bowel mucosa. 
+
+
+COMMENT: 
+Focal acute colitis in the sigmoid colon is suggestive of an infectious aetiology. The descending colon biopsy suggests that there may be superimposed graft versus host disease as well. "

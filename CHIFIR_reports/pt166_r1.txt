@@ -1,0 +1,54 @@
+"URNO     XXXXXXXXX 
+Lab No    XXXXXXXXX        Specimen  TISSUE 
+
+
+
+CLINICAL NOTES: 
+
+CMV.  
+CMV vs GVHD. 
+
+MACROSCOPIC DESCRIPTION: 
+
+1. ""Caecum biopsy"": Two fragments of tan tissue 2mm. Each all in 1.1. A1.  
+
+2. ""Transverse colon biopsy"": Three fragments of tan tissue 0.5-2mm. All in 2.1. A1.  
+
+3. ""Sigmoid biopsy: Two fragments of tan tissue 3-5mm. All in 3.1. A1.  
+
+4. ""Rectum biopsy"": Two fragments of tan tissue 1-2mm. All in 4.1. A1.  
+
+5. ""Random colon in saline (tissue has been sent fresh for Micro and the remaining tissue has been put in formalin)"": Four fragments of tan tissue ranging from 2-5mm. All in 5.1. A1. (EC) 
+
+MICROSCOPIC DESCRIPTION: 
+
+1. Two strips of colonic mucosa, one with muscularis mucosae. The surface epithelium is intact. Glandular architecture is normal. Intraepithelial and lamina propria inflammatory cells are not increased. Apoptoses are not increased. No viral 
+cytopathic effect is identified. There is no dysplasia. 
+
+2. Three partly fragmented strips of colonic mucosa, one with muscularis mucosae. The surface epithelium is focally denuded. Glandular architecture is normal. Intraepithelial lymphocytes are mildly increased. In one of the biopsies there is an area 
+of acute lamina propria inflammation. No cryptitis, crypt abscesses or granulomas are identified. No viral cytopathic effect is identified. Apoptoses are not increased. There is no dysplasia. 
+
+3. Five partly fragmented strips of colonic mucosa with muscularis mucosae. The surface epithelium is intact. Glandular architectural complexity is mildly increased. In one of the biopsies there is an area of lamina propria acute inflammation. No 
+cryptitis, crypt abscesses or granulomas are identified. No viral cytopathic effect is identified. Apoptoses are not increased. There is no dysplasia. 
+
+4. Two partly fragmented strips of colonic mucosa, one with muscularis mucosae. The surface epithelium is focally denuded. Glandular architectural complexity is mildly increased. Intraepithelial and lamina propria inflammatory cells are not increased. 
+ No cryptitis, crypt abscesses or granulomas are identified. No viral cytopathic effect is identified. Apoptoses are not increased. There is no dysplasia. 
+
+5. Four partly fragmented and degenerate strips of colonic mucosa, one with muscularis mucosae. The glandular architecture is mildly distorted. In one of the biopsies there is a focal increase in lamina propria inflammatory cells including numerous 
+eosinophils. No viral cytopathic effect is identified. Apoptoses are not increased. There is no dysplasia. 
+
+IMMUNOHISTOCHEMISTRY: 
+
+CMV - Negative. Lamina propria plasma cell cytoplasmic staining. 
+
+DIAGNOSIS: 
+
+1. Caecum biopsy: Normal colonic mucosa. 
+
+2. Transverse colon biopsy: Mild focal active colitis. 
+
+3. Sigmoid biopsy: Mild focal active colitis and mild nonspecific architectural distortion. 
+
+4. Rectum biopsy: Mild nonspecific architectural distortion. 
+
+5. Random colon: Focal mild increase in lamina propria inflammatory cells. "

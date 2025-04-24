@@ -1,0 +1,42 @@
+"URNO     XXXXXXXXX 
+Lab No    XXXXXXXXX        Specimen  TISSUE 
+
+
+CLINICAL NOTES: 
+
+?Acute graft versus host disease.  
+
+MACROSCOPIC DESCRIPTION: 
+
+1. ""Gastric biopsy"": Four pieces of tissue 1-3mm. 4A1.  
+
+2. ""Duodenum Bx"": Six pieces of tissue 1-3mm. 6A1.  
+
+3. ""Ileum Bx"": Three pieces of tissue 3-4mm. 3A1. (XX) 
+
+MICROSCOPIC DESCRIPTION: 
+1. There are fragments of gastric mucosa including muscularis mucosa. The architecture is generally preserved. There is mild chronic inflammation characterised by increased number of chronic inflammatory cells within the lamina propria including plasma 
+cells and rare eosinophils. There is extension of thin smooth muscle fibres into superficial lamina propria. No acute inflammation, ulceration of granuloma formation is seen. No dysplasia present. 
+Definitive features of acute graft-versus-host-disease are not established. 
+Immunohistochemistry for H Pylori and CMV are negative. 
+
+2. and 3. Sections show fragments of small intestinal mucosa including muscularis mucosa. The villous architecture is generally preserved. No intra-epithelial lymphocytosis is present. 
+There are scattered apoptotic debris within the lamina propria and occasionally within the intestinal crypts. Limited foci of ""exploding cells"" are noted, more prominent in the ileal biopsy. No crypt abscess formation is noted. 
+No Significant acute inflammation is seen and no granuloma formation is identified. No dysplasia present. 
+Immunohistochemistry for CMV shows rare cells with nuclear staining. 
+
+Comment: 
+The appearances in the duodenal and the ileal biopsies are consistent with grade 1, acute graft-versus-host-disease in the right clinical settings. However, similar changes can be seen due to CMV infection and/or drug induced. Clinical correlation is 
+required. 
+
+
+DIAGNOSIS: 
+
+1. Gastric biopsy: 
+- Mild chronic inflammation and reactive gastropathy change. 
+- Immunohistochemistry for H Pylori and CMV negative.  
+
+2. and 3. Duodenum and ileum biopsies: 
+- Features in keeping with the clinical impression of acute graft-versus-host-disease, grade 1. 
+- Immunohistochemistry for CMV positive. 
+- Please see comment. "

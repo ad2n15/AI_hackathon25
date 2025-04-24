@@ -1,0 +1,58 @@
+"URNO     XXXXXXXXX 
+Lab No    XXXXXXXXX        Specimen  TISSUE 
+
+
+CLINICAL NOTES: 
+BMT, CMV vs GVHD. 
+Histopath CMV + HSV PCR. 
+Duodenal, gastric, oesophagus, right side, left side, rectal biopsy. 
+All formalin and normal saline. 
+
+MACROSCOPIC DESCRIPTION: 
+1. ""Oesophagus biopsy"": A single tissue fragment 3mm. A1. 
+
+2. ""Gastric biopsy"": Two tissue fragments 2mm, 3mm. A1. 
+
+3. ""Duodenal biopsy"": Three tissue fragments ranging from 1-2mm. A1. 
+
+4. ""Right colon biopsy"": Three tissue fragments ranging from 0.5-4mm. A1. 
+
+5. ""Left colon biopsy"": Four tissue fragments ranging from 2-4mm. A1. 
+
+6. ""Rectum biopsy"": Two tissue fragments, 2mm, 3mm. A1. 
+
+HSV, CMV, IHC ordered on all specimens at cut up. (NR). 
+
+MICROSCOPIC DESCRIPTION: 
+1. Sections show a fragment of squamous epithelium with no subepithelial stroma. The nuclei show mild loss of polarity. Nuclear irregularity and prominent nuclei focallyobserved. No apoptotic squamous mucosa identified. There is no evidence of 
+inflammation. No viral cytopathic changes or organisms identified. 
+
+2. Sections show a fragment of gastric body mucosa and fragment of gastric antral mucosa with muscularis mucosae. The foveolar epithelium is partly denuded with no evidence of inflammation, intestinal metaplasia or dysplasia. The lamina propria contains 
+scattered chronic inflammatory cells, within normal limits. Very focal apoptotic debris is seen. No viral cytopathic changes or organisms identified. 
+
+3. Sections show 3 fragments of duodenal mucosa with muscularis mucosae. The villi appear shortened. Scattered intraepithelial lymphocytes are seen. The lamina propria is congested with multiple thin-walled capillaries and contains a mixed acute and 
+chronic inflammatory cell infiltrate. Apoptotic debris within the crypts and within the crypt lumen is identified. Definite viral cytopathic effect is not seen. 
+
+4. Sections show 2 fragments of colonic mucosa with muscularis mucosae the surface epithelium is unremarkable with no evidence of inflammation. The lamina propria is diffusely oedematous and contains multiple thin walled capillaries with neutrophils 
+margination and scattered chronic inflammatory cells. The crypts show regenerative atypia and multiple foci of apoptotic debris are identified. Definite viral cytopathic effect is not seen. 
+
+5. Sections show 4 fragments of colonic mucosa with muscularis mucosae the surface epithelium is unremarkable. The lamina propria is diffusely oedematous and contains a normal complement of chronic inflammatory cells with multiple thin-walled capillaries 
+showing neutrophil margination. The crypts show regenerative atypia and foci of apoptotic debris are identified. Definite viral cytopathic effect is not seen. 
+
+6. Sections show 2 fragments of rectal mucosa with muscularis mucosae. The surface epithelium is unremarkable with no evidence of inflammation or dysplasia. The lamina propria is diffusely oedematous and contains a normal component of chronic 
+inflammatory cells. The crypts are unremarkable with no evidence of apoptosis. No viral cytopathic changes are seen. 
+
+CMV, HSV1&2 immunostains are negative on all 6 specimens. 
+
+DIAGNOSIS: 
+1. Oesophageal biopsy: Squamous epithelium with minor non-specific reactive changes. 
+
+2. Gastric biopsy: Gastric body mucosa with minor reactive changes. 
+
+3. Duodenal biopsy: Features consistent with acute graft versus host disease. 
+
+4. Right colon biopsy: Features consistent with acute graft versus host disease. 
+
+5. Left colon biopsy: Features consistent with acute graft versus host disease. 
+
+6. Rectum biopsy: Normal rectal mucosa. "

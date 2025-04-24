@@ -1,0 +1,20 @@
+"URNO     XXXXXXXX 
+Lab No    XXXXXXXXX        Specimen  TISSUE 
+
+CLINICAL NOTES 
+Epigastric pain. Histopath. Antrum, D2, gastric body. 
+ 
+MACROSCOPIC DESCRIPTION 
+1. ""Body Bx"". Two pieces of tan tissue 3 and 5mm. A1. 
+2. ""Antral biopsies"". Two pieces of tan tissue 3 and 6mm. A1. 
+3. ""Duodenal Bx"". Two pieces of tan tissue 3 and 5mm. A1. (ml:oze) 
+
+MICROSCOPIC DESCRIPTION 
+1. Sections show fragments of superficial specialised gastric mucosa. There are PPI-type changes. There are foci of goblet cells and enterocytes. Inflammatory cells are within normal limits. Active inflammation or Helicobacter are not seen. No granulomata are identified. There is no evidence of dysplasia or malignancy. 
+2. Sections show a fragments of non-specialised gastric mucosa and one of junctional mucosa. There are PPI-type changes. Inflammatory cells are within normal limits. Active inflammation or Helicobacter are not seen. No granulomata are identified. There is no evidence of metaplasia, dysplasia or malignancy. 
+3. Sections show two fragments of small bowel mucosa, without attached muscularis mucosae and Brunner's glands. Crypt and villous architecture is within normal limits. There is no abnormal inflammatory infiltrate. No pathogenic organisms or granulomata are identified. There is no evidence of coeliac disease. 
+
+DIAGNOSIS 
+1. Body Bx - focal complete intestinal metaplasia; negative for dysplasia. 
+2. Antral biopsies - gastric mucosa with minor changes only. 
+3. Duodenal Bx - superficial small bowel mucosa within normal limits. "

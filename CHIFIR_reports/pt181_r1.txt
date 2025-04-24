@@ -1,0 +1,58 @@
+"URNO     XXXXXXXXX 
+Lab No    XXXXXXXXX        Specimen  TISSUE 
+
+
+CLINICAL NOTES: 
+?Candida oesophagitis. ?GVHD vs CMV in colon (normal looking). Diarrhoea + vomiting. 
+
+MACROSCOPIC DESCRIPTION: 
+1. ""Oesophageal Bx"": Two grey tissue fragments 1-2mm. A1. 
+
+2. ""Gastric"": A tan tissue fragment 3mm. A1. 
+
+3. ""TI Bx"": A tan tissue fragment 2mm. A1. 
+
+4. ""Right colon Bx"": Two grey tissue fragments 2-3mm. A1. 
+
+5. ""Left colon Bx"": Two grey tissue fragments 2-4mm. A1. 
+
+6. ""Rectal Bx"": A tan tissue fragment 3mm. A1. (XX) 
+
+MICROSCOPIC DESCRIPTION: 
+1. Sections show two fragments of stratified squamous mucosa with minimal stroma and one fragment of partly necrotic appearing stroma without epithelium. The squamous epithelium shows overall preserved architecture, with focal spongiosis and increased 
+numbers of mononuclear chronic inflammatory cells. The stroma fragment contains some smooth muscle. Most of the remaining tissue appear necrotic infiltrated by mixed inflammatory cells. There is no glandular mucosa. There is no evidence of dysplasia 
+or malignancy.  PAS stain and CMV immunohistochemistry to follow. 
+
+2. Sections show specialised gastric mucosa including muscularis mucosae. The epi9thelium shows increased numbers of apoptoses and luminal cell debris. There are increased numbers of intraepithelial lymphocytes. The lamina propria contains a mild 
+mixed infiltrate. Helicobacter pylori organisms are not identified. There is no evidence of intestinal metaplasia, dysplasia or malignancy. CMV immunohistochemistry is negative. 
+
+3. Sections show a fragment of small bowel mucosa. The epithelium is almost entirely denuded which hampers assessment. There are a couple of intact crypts which show increased numbers of apoptotic cells. 
+
+4. Sections show fragments of large bowel mucosa including muscularis mucosae. Crypt architecture shows minor focal irregularity. The epithelium shows increased numbers of apoptoses in basal and mid zones. The lamina propria contains a patchy mild 
+infiltrate of mononuclear chronic inflammatory cells and eosinophils. No viral inclusions are seen. CMV immunohistochemistry is negative. 
+ 
+5. Sections show fragments of large bowel mucosa including muscularis mucosae. Crypt architecture shows minor focal irregularity. The epithelium shows increased numbers of apoptoses in basal and mid zones. The lamina propria contains a patchy mild 
+infiltrate of mononuclear chronic inflammatory cells and eosinophils. No viral inclusions are seen. CMV immunohistochemistry is negative. 
+
+6. Sections show fragments of large bowel mucosa including muscularis mucosae. Crypt architecture shows minor focal irregularity. The epithelium shows increased numbers of apoptoses in basal and mid zones. The lamina propria contains a patchy mild 
+infiltrate of mononuclear chronic inflammatory cells and eosinophils. No viral inclusions are seen. CMV immunohistochemistry is negative. 
+
+DIAGNOSIS: 
+1. Oesophageal Bx:  Active oesophagitis. 
+
+Comment: PAS stain to follow. 
+
+2. Gastric: Features suggestive of graft vs host disease. 
+
+3. TI Bx: Features suggestive of graft vs host disease. 
+
+4. Right colon Bx: Graft vs host disease. 
+
+5. Left colon Bx: Graft vs host disease. 
+
+6. Rectal Bx: Graft vs host disease. 
+
+REPORTED BY: Dr XXXXXXXXXXXXXXXe 
+
+SUPPLEMENTARY REPORT - Dr XXXXXXXXXXXXXXXX XXXXXXXX: 
+1. No fungi seen on PAS stain. "

@@ -1,0 +1,46 @@
+"URNO     XXXXXXXXX 
+Lab No    XXXXXXXXX        Specimen  TISSUE 
+
+
+CLINICAL NOTES: 
+
+Bone marrow transplant 
+?GVHD 
+?cmv 
+(Inflamed TI ?GVHD) 
+
+Sample sent to Micro. 
+
+MACROSCOPIC DESCRIPTION: 
+
+1. ""TI biopsy in formalin"": Tan tissue fragments between 1mm and 3mm. 3A1. All in.  
+
+2. ""Caecum biopsy in formalin"": 2mm tan tissue fragments. 2A1. All in. 
+
+3. ""Left side colon formalin"": A single 2mm tan tissue fragment. 1A1. All in. (MB) 
+
+MICROSCOPIC DESCRIPTION: 
+
+1. The specimen is examined at six levels. There are two fragments of almost completely denuded mucosa including underlying muscularis mucosae. There is paucity of the normal inflammatory cell component within the lamina propria associated with patchy 
+acute inflammation. There is granulation tissue formation. Definite cytopathic effect of CMV infection is not identified. 
+Immunohistochemistry shows occasional scattered cellswith positive nuclear staining for CMV.  
+
+2. There are two fragments of large intestinal mucosa including muscularis mucosae. There is crypt architecture is generally preserved but there is focal crypt drop-out. There is crypt epithelial single cell apoptosis with karyorrhectic debris. Focal 
+dilated crypt is noted containing granular eosinophilic debris. This is associated with relatively sparse inflammatory cell component within the lamina propria. Immunohistochemistry for CMV is negative. 
+
+
+3. There is a single superficial fragment of large intestinal mucosa with underlying muscularis mucosae. There is oedema but no cryptitis or crypt abscess formation is seen. The epithelium is intact. Immunohistochemistry for CMV is negative. 
+
+COMMENT: 
+There are some overlapping histological features of CMV induced inflammation and acute graft versus host disease (GVHD) in the terminal ileum and the caecal biopsies. The possibility of a dual pathology cannot be excluded morphologically. Clinical 
+correlation is recommended. 
+
+
+
+DIAGNOSIS: 
+
+1. Terminal ileum biopsy: Severe mucosal denudation, acute inflammation and granulation tissue formation, Immunohistochemistry for CMV is positive; please see comment.  
+
+2. Caecum biopsy: Single cell apoptosis and focal crypts drop-out, please see comment. 
+
+3. Left side colon: Non-specific minor changes.  "

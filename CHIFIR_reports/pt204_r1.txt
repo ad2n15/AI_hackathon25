@@ -1,0 +1,34 @@
+"URNO     XXXXXXXXX 
+Lab No    XXXXXXXXX        Specimen  TISSUE 
+
+
+CLINICAL NOTES: 
+
+Right hemicolectomy. 
+
+MACROSCOPIC DESCRIPTION: 
+
+""Right hemicolectomy"": Two segments of large bowel, one is 55x35x35mm, with 45mm long staple line and roughened serosa throughout. The mucosa is oedematous and there is no masses, polyps or ulcers. The specimen is right hemicolectomy, comprising large bowel 240mm long, 60-75mm in diameter with wall thickness 1-10mm, with extensive emphysema of the bowel wall. The serosa at the caecum is roughened and fibrotic. Base of appendix (probable remnant from previous appendicectomy) is present, 27x6x6mm. Small bowel is 30mm long, 25mm in diameter, with a 30mm long staple line. Some omentum is attached 120x70x10mm. Large bowel mesocolon 35mm long. Emphysema extends into serosa. There are no masses, polyps or ulcers.  
+
+BLOCK DESIGNATION:  
+
+1.1-1.2 - smaller section of bowel. 
+1.3 - distal margin of larger segment. 
+1.4-1.5 - representative sections of emphysematous bowel. 
+1.6 - caecal pole roughened serosal area.  
+1.7 - appendix. 
+1.8 - small bowel resection margin.  
+1.9-1.10 - apical node and fat. P10.(XX) 
+
+MICROSCOPIC DESCRIPTION: 
+
+The sections show bowel with mucosal inflammation, ulceration, ischaemic-type mucosal necrosis and oedema. There is extensive air space formation within the submucosa. In the smaller specimen inflammation extends to inked margins. In the larger specimen the longitudinal margins are normal. The appendiceal serosa is inflamed. No primary intestinal neoplasia is present. There is some old suture material and focal serosal acute inflammatory exudate. 
+
+DIAGNOSIS: 
+
+Right hemicolectomy: Ischaemic colitis/enteritis, pneumatosis intestinalis, serosal acute inflammation consistent with perforation. 
+
+
+
+REPORTED BY: Dr XXXXXXXXXXXXXXXX (XXXXXXXXX) 
+REGISTRAR: Dr XXXXXXXXXXXX "
